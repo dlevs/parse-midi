@@ -1,0 +1,6 @@
+{
+  "extends": ["@dlevs/tslint-config"],
+  "rules": {
+    "switch-default": false
+  }
+}

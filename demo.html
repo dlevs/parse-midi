@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MIDI Parser Demo</title>
+	<style>
+		body {
+			padding: 30px;
+			font-family: sans-serif;
+			font-size: 18px;
+			color: #333;
+		}
+	</style>
+</head>
+<body>
+	<p>Open the console to see the <code>parse-midi</code> module respond to MIDI input.</p>
+	<p>Your browser must support:</p>
+	<ul>
+		<li>ES6</li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess">MIDIAccess interface</a></li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"><code>&lt;script type="module"&gt;</code></a></li>
+	</ul>
+	<script type="module">
+		import parseMidi from './dist/parseMidi.js';
+
+		const listenAll = (inputs) => {
+			Array.from(inputs.values()).forEach(input => {
+				input.onmidimessage = (event) => {
+					console.log(JSON.stringify(parseMidi(event.data), null, 4));
+				};
+			});
+		}
+
+		(async () => {
+			const access = await navigator.requestMIDIAccess();
+
+			if (!access.inputs.size) {
+				console.warn('No MIDI devices connected. Connect a device to begin.');
+			} else {
+				listenAll(access.inputs);
+			}
+
+			access.addEventListener('statechange', (event) => {
+				const { name, state } = event.port;
+				console.log(`${name} is now ${state}`);
+
+				// TODO: Do we need to unregister event listeners when disconnecting?
+				if (state === 'connected') {
+					listenAll(event.target.inputs);
+				}
+			});
+		})();
+	</script>
+</body>
+</html>

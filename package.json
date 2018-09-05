@@ -1,0 +1,29 @@
+{
+  "name": "parse-midi",
+  "version": "0.0.1",
+  "description": "A small parser for MIDI messages.",
+  "main": "dist/parseMidi.js",
+  "scripts": {
+    "start": "npm run clean && tsc -w",
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist && rimraf demo/parseMidi.mjs",
+    "lint": "tslint --format stylish --project .",
+    "test": "jest",
+    "prepublish": "npm test && npm run lint && npm run build"
+  },
+  "author": "Daniel Levett",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlevs/parse-midi"
+  },
+  "devDependencies": {
+    "@dlevs/tslint-config": "1.0.2",
+    "@types/jest": "23.3.1",
+    "jest": "23.5.0",
+    "rimraf": "2.6.2",
+    "ts-jest": "23.1.4",
+    "tslint": "5.11.0",
+    "typescript": "3.0.3"
+  }
+}

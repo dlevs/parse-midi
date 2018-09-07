@@ -1,0 +1,124 @@
+# parse-midi
+
+A small parser for MIDI messages.
+
+## Installation
+
+```bash
+npm install parse-midi
+```
+
+## Usage
+
+### Basic usage
+
+```javascript
+import parseMidi from 'parse-midi';
+
+parseMidi([144, 60, 62]);
+// { messageType: 'noteon', key: 60, velocity: 85, channel: 1, messageCode: 144 }
+```
+
+### Responding to MIDI devices in the browser
+
+In browsers that support [MIDIAccess](https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess), the parser can be used on event data:
+
+```javascript
+import parseMidi from 'parse-midi';
+
+navigator.requestMIDIAccess().then(access => {
+    Array.from(access.inputs.values()).forEach(input => {
+        input.addEventListener('midimessage', (event) => {
+            const midiMessage = parseMidi(event.data);
+            console.log(midiMessage);
+        });
+    });
+});
+```
+
+See the [demo](./demo.html) for a working example.
+
+## Return values
+
+The `parseMidi` function returns an object which always has at least these properties:
+
+```JavaScript
+{
+    messageCode: 0-240,
+    channel: 1-16,
+}
+```
+
+In addition, specific properties exist for each `messageType`:
+
+```JavaScript
+{
+    messageType: 'noteoff',
+    key: 0-127,
+    velocity: 0-127,
+}
+
+{
+    messageType: 'noteon',
+    key: 0-127,
+    velocity: 0-127,
+}
+
+{
+    messageType: 'keypressure',
+    key: 0-127,
+    pressure: 0-127,
+}
+
+{
+    messageType: 'controlchange',
+    controlFunction: string, // e.g. 'volume'
+    controlNumber: 0-127,
+    controlValue: 0-127,
+}
+
+{
+    messageType: 'channelmodechange',
+    channelModeMessage: string, // e.g. 'allnotesoff'
+    controlNumber: 0-127,
+    controlValue: 0-127,
+}
+
+{
+    messageType: 'programchange',
+    program: 0-127,
+}
+
+{
+    messageType: 'channelpressure',
+    pressure: 0-127,
+}
+
+{
+    messageType: 'pitchbendchange',
+    pitchBend: 0-16383,
+    pitchBendMultiplier: -1 - 1,
+}
+
+{
+    messageType: 'unknown',
+    data1: 0-127,
+    data2: 0-127,
+}
+```
+
+### TypeScript
+
+With TypeScript, type safety and intellisense can be achieved by refining the type of the return object:
+
+```JavaScript
+const midiMessage = parseMidi(rawMidiMessage);
+
+// Bad - won't compile
+console.log(midiMessage.key);
+
+// Good
+if (midiMessage.messageType === 'noteon') {
+    console.log(midiMessage.key);
+}
+```

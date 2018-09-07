@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run clean && tsc -w",
     "build": "npm run clean && tsc",
-    "clean": "rimraf dist && rimraf demo/parseMidi.mjs",
+    "clean": "rimraf dist",
     "lint": "tslint --format stylish --project .",
     "test": "jest",
     "prepublish": "npm test && npm run lint && npm run build"

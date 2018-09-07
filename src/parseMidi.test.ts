@@ -8,17 +8,17 @@ describe('parseMidi', () => {
 			channel: 1,
 			messageType: 'noteon',
 			key: 60,
-			velocity: 110
+			velocity: 110,
 		});
 		expect(parseMidi([145, 60, 110])).toMatchObject({
 			messageCode: 144,
 			channel: 2,
-			messageType: 'noteon'
+			messageType: 'noteon',
 		});
 		expect(parseMidi([159, 60, 110])).toMatchObject({
 			messageCode: 144,
 			channel: 16,
-			messageType: 'noteon'
+			messageType: 'noteon',
 		});
 	});
 });

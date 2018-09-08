@@ -19,13 +19,11 @@ parseMidi([144, 60, 62]);
 // { messageType: 'noteon', key: 60, velocity: 85, channel: 1, messageCode: 144 }
 ```
 
-### Responding to MIDI devices in the browser
+### Responding to MIDI messages in the browser
 
 In browsers that support [MIDIAccess](https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess), the parser can be used on event data:
 
 ```javascript
-import parseMidi from 'parse-midi';
-
 navigator.requestMIDIAccess().then(access => {
     Array.from(access.inputs.values()).forEach(input => {
         input.addEventListener('midimessage', (event) => {
@@ -36,7 +34,7 @@ navigator.requestMIDIAccess().then(access => {
 });
 ```
 
-See the [demo](./demo.html) for a working example.
+See the [demo](https://dlevs.github.io/parse-midi/demo) for a working example.
 
 ## Return values
 
@@ -112,7 +110,7 @@ In addition, specific properties exist for each `messageType`:
 With TypeScript, type safety and intellisense can be achieved by refining the type of the return object:
 
 ```JavaScript
-const midiMessage = parseMidi(rawMidiMessage);
+const midiMessage = parseMidi([144, 60, 62]);
 
 // Bad - won't compile
 console.log(midiMessage.key);

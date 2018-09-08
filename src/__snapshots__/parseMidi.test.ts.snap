@@ -1,0 +1,5361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,0,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "bankselect",
+  "controlNumber": 0,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,0,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "bankselect",
+  "controlNumber": 0,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,1,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "modulation",
+  "controlNumber": 1,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,1,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "modulation",
+  "controlNumber": 1,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,2,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "breathcontroller",
+  "controlNumber": 2,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,2,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "breathcontroller",
+  "controlNumber": 2,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,3,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 3,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,3,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 3,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,4,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "footcontroller",
+  "controlNumber": 4,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,4,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "footcontroller",
+  "controlNumber": 4,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,5,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentotime",
+  "controlNumber": 5,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,5,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentotime",
+  "controlNumber": 5,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,6,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "dataentry",
+  "controlNumber": 6,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,6,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "dataentry",
+  "controlNumber": 6,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,7,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "volume",
+  "controlNumber": 7,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,7,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "volume",
+  "controlNumber": 7,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,8,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "balance",
+  "controlNumber": 8,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,8,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "balance",
+  "controlNumber": 8,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,9,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 9,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,9,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 9,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,10,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "pan",
+  "controlNumber": 10,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,10,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "pan",
+  "controlNumber": 10,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,11,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "expressioncontroller",
+  "controlNumber": 11,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,11,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "expressioncontroller",
+  "controlNumber": 11,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,12,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect1",
+  "controlNumber": 12,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,12,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect1",
+  "controlNumber": 12,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,13,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect2",
+  "controlNumber": 13,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,13,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect2",
+  "controlNumber": 13,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,14,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 14,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,14,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 14,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,15,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 15,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,15,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 15,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,16,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller1",
+  "controlNumber": 16,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,16,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller1",
+  "controlNumber": 16,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,17,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller2",
+  "controlNumber": 17,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,17,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller2",
+  "controlNumber": 17,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,18,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller3",
+  "controlNumber": 18,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,18,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller3",
+  "controlNumber": 18,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,19,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller4",
+  "controlNumber": 19,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,19,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller4",
+  "controlNumber": 19,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,20,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 20,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,20,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 20,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,21,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 21,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,21,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 21,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,22,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 22,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,22,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 22,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,23,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 23,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,23,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 23,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,24,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 24,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,24,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 24,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,25,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 25,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,25,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 25,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,26,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 26,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,26,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 26,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,27,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 27,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,27,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 27,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,28,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 28,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,28,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 28,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,29,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 29,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,29,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 29,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,30,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 30,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,30,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 30,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,31,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 31,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,31,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 31,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,32,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "bankselectfine",
+  "controlNumber": 32,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,32,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "bankselectfine",
+  "controlNumber": 32,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,33,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "modulationfine",
+  "controlNumber": 33,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,33,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "modulationfine",
+  "controlNumber": 33,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,34,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "breathcontrollerfine",
+  "controlNumber": 34,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,34,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "breathcontrollerfine",
+  "controlNumber": 34,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,35,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 35,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,35,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 35,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,36,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "footcontrollerfine",
+  "controlNumber": 36,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,36,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "footcontrollerfine",
+  "controlNumber": 36,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,37,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentotimefine",
+  "controlNumber": 37,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,37,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentotimefine",
+  "controlNumber": 37,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,38,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "dataentryfine",
+  "controlNumber": 38,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,38,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "dataentryfine",
+  "controlNumber": 38,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,39,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "volumefine",
+  "controlNumber": 39,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,39,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "volumefine",
+  "controlNumber": 39,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,40,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "balancefine",
+  "controlNumber": 40,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,40,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "balancefine",
+  "controlNumber": 40,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,41,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 41,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,41,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 41,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,42,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "panfine",
+  "controlNumber": 42,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,42,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "panfine",
+  "controlNumber": 42,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,43,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "expressioncontrollerfine",
+  "controlNumber": 43,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,43,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "expressioncontrollerfine",
+  "controlNumber": 43,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,44,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect1fine",
+  "controlNumber": 44,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,44,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect1fine",
+  "controlNumber": 44,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,45,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect2fine",
+  "controlNumber": 45,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,45,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effect2fine",
+  "controlNumber": 45,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,46,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 46,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,46,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 46,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,47,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 47,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,47,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 47,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,48,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller1fine",
+  "controlNumber": 48,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,48,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller1fine",
+  "controlNumber": 48,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,49,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller2fine",
+  "controlNumber": 49,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,49,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller2fine",
+  "controlNumber": 49,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,50,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller3fine",
+  "controlNumber": 50,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,50,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller3fine",
+  "controlNumber": 50,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,51,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller4fine",
+  "controlNumber": 51,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,51,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller4fine",
+  "controlNumber": 51,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,52,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 52,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,52,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 52,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,53,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 53,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,53,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 53,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,54,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 54,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,54,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 54,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,55,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 55,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,55,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 55,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,56,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 56,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,56,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 56,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,57,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 57,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,57,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 57,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,58,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 58,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,58,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 58,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,59,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 59,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,59,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 59,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,60,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,61,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 61,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,61,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 61,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,62,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 62,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,62,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 62,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,63,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 63,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,63,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 63,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,64,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "sustainoff",
+  "controlNumber": 64,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,64,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "sustainon",
+  "controlNumber": 64,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,65,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentooff",
+  "controlNumber": 65,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,65,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentoon",
+  "controlNumber": 65,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,66,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "sostenutooff",
+  "controlNumber": 66,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,66,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "sostenutoon",
+  "controlNumber": 66,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,67,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "softoff",
+  "controlNumber": 67,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,67,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "softon",
+  "controlNumber": 67,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,68,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "legatooff",
+  "controlNumber": 68,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,68,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "legatoon",
+  "controlNumber": 68,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,69,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "hold2off",
+  "controlNumber": 69,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,69,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "hold2on",
+  "controlNumber": 69,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,70,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller1",
+  "controlNumber": 70,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,70,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller1",
+  "controlNumber": 70,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,71,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller2",
+  "controlNumber": 71,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,71,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller2",
+  "controlNumber": 71,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,72,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller3",
+  "controlNumber": 72,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,72,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller3",
+  "controlNumber": 72,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,73,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller4",
+  "controlNumber": 73,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,73,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller4",
+  "controlNumber": 73,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,74,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller5",
+  "controlNumber": 74,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,74,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller5",
+  "controlNumber": 74,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,75,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller6",
+  "controlNumber": 75,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,75,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller6",
+  "controlNumber": 75,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,76,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller7",
+  "controlNumber": 76,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,76,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller7",
+  "controlNumber": 76,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,77,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller8",
+  "controlNumber": 77,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,77,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller8",
+  "controlNumber": 77,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,78,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller9",
+  "controlNumber": 78,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,78,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller9",
+  "controlNumber": 78,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,79,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller10",
+  "controlNumber": 79,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,79,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "soundcontroller10",
+  "controlNumber": 79,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,80,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller5",
+  "controlNumber": 80,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,80,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller5",
+  "controlNumber": 80,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,81,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller6",
+  "controlNumber": 81,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,81,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller6",
+  "controlNumber": 81,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,82,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller7",
+  "controlNumber": 82,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,82,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller7",
+  "controlNumber": 82,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,83,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller8",
+  "controlNumber": 83,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,83,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "generalpurposecontroller8",
+  "controlNumber": 83,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,84,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentocontrol",
+  "controlNumber": 84,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,84,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "portamentocontrol",
+  "controlNumber": 84,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,85,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 85,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,85,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 85,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,86,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 86,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,86,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 86,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,87,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 87,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,87,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 87,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,88,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 88,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,88,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 88,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,89,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 89,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,89,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 89,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,90,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 90,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,90,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 90,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,91,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth1",
+  "controlNumber": 91,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,91,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth1",
+  "controlNumber": 91,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,92,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth2",
+  "controlNumber": 92,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,92,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth2",
+  "controlNumber": 92,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,93,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth3",
+  "controlNumber": 93,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,93,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth3",
+  "controlNumber": 93,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,94,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth4",
+  "controlNumber": 94,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,94,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth4",
+  "controlNumber": 94,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,95,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth5",
+  "controlNumber": 95,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,95,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "effectdepth5",
+  "controlNumber": 95,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,96,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "dataincrement",
+  "controlNumber": 96,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,96,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "dataincrement",
+  "controlNumber": 96,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,97,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "datadecrement",
+  "controlNumber": 97,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,97,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "datadecrement",
+  "controlNumber": 97,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,98,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "nonregisteredparameternumberfine",
+  "controlNumber": 98,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,98,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "nonregisteredparameternumberfine",
+  "controlNumber": 98,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,99,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "nonregisteredparameternumber",
+  "controlNumber": 99,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,99,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "nonregisteredparameternumber",
+  "controlNumber": 99,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,100,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "registeredparameternumberfine",
+  "controlNumber": 100,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,100,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "registeredparameternumberfine",
+  "controlNumber": 100,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,101,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "registeredparameternumber",
+  "controlNumber": 101,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,101,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": "registeredparameternumber",
+  "controlNumber": 101,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,102,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 102,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,102,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 102,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,103,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 103,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,103,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 103,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,104,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 104,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,104,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 104,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,105,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 105,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,105,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 105,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,106,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 106,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,106,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 106,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,107,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 107,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,107,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 107,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,108,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 108,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,108,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 108,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,109,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 109,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,109,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 109,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,110,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 110,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,110,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 110,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,111,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 111,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,111,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 111,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,112,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 112,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,112,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 112,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,113,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 113,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,113,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 113,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,114,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 114,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,114,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 114,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,115,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 115,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,115,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 115,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,116,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 116,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,116,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 116,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,117,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 117,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,117,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 117,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,118,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 118,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,118,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 118,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,119,0] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 119,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,119,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 119,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,120,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "allsoundoff",
+  "controlNumber": 120,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,120,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": null,
+  "controlNumber": 120,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,121,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "resetallcontrollers",
+  "controlNumber": 121,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,121,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": null,
+  "controlNumber": 121,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,122,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "localcontroloff",
+  "controlNumber": 122,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,122,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "localcontrolon",
+  "controlNumber": 122,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,123,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "allnotesoff",
+  "controlNumber": 123,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,123,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": null,
+  "controlNumber": 123,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,124,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "omnimodeoff",
+  "controlNumber": 124,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,124,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": null,
+  "controlNumber": 124,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,125,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "omnimodeon",
+  "controlNumber": 125,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,125,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": null,
+  "controlNumber": 125,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,126,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "monomodeon",
+  "controlNumber": 126,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,126,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "monomodeon",
+  "controlNumber": 126,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,127,0] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": "polymodeon",
+  "controlNumber": 127,
+  "controlValue": 0,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of control change messages: [176,127,127] 1`] = `
+Object {
+  "channel": 1,
+  "channelModeMessage": null,
+  "controlNumber": 127,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "channelmodechange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [0,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [1,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [2,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [3,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [4,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [5,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [6,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [7,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [8,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [9,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [10,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [11,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [12,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [13,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [14,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [15,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [16,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [17,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [18,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [19,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [20,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [21,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [22,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [23,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [24,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [25,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [26,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [27,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [28,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [29,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [30,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [31,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [32,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [33,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [34,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [35,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [36,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [37,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [38,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [39,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [40,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [41,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [42,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [43,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [44,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [45,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [46,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [47,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [48,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [49,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [50,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [51,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [52,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [53,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [54,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [55,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [56,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [57,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [58,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [59,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [60,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [61,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [62,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [63,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [64,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [65,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [66,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [67,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [68,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [69,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [70,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [71,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [72,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [73,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [74,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [75,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [76,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [77,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [78,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [79,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [80,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [81,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [82,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [83,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [84,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [85,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [86,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [87,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [88,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [89,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [90,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [91,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [92,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [93,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [94,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [95,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [96,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [97,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [98,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [99,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [100,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [101,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [102,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [103,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [104,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [105,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [106,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [107,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [108,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [109,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [110,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [111,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [112,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [113,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [114,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [115,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [116,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [117,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [118,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [119,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [120,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [121,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [122,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [123,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [124,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [125,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [126,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [127,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [128,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [129,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [130,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [131,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [132,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [133,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [134,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [135,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [136,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [137,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [138,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [139,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [140,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [141,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [142,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [143,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [144,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [145,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [146,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [147,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [148,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [149,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [150,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [151,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [152,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [153,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [154,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [155,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [156,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [157,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [158,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [159,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteon",
+  "velocity": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [160,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [161,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [162,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [163,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [164,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [165,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [166,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [167,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [168,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [169,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [170,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [171,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [172,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [173,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [174,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [175,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 110,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [176,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [177,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [178,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [179,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [180,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [181,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [182,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [183,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [184,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [185,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [186,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [187,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [188,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [189,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [190,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [191,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 110,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [192,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [193,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [194,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [195,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [196,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [197,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [198,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [199,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [200,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [201,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [202,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [203,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [204,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [205,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [206,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [207,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [208,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [209,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [210,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [211,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [212,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [213,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [214,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [215,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [216,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [217,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [218,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [219,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [220,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [221,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [222,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [223,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [224,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [225,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [226,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [227,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [228,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [229,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [230,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [231,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [232,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [233,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [234,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [235,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [236,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [237,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [238,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [239,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 14140,
+  "pitchBendMultiplier": 0.7261628616774508,
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [240,60,110] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [241,60,110] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [242,60,110] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [243,60,110] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [244,60,110] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [245,60,110] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [246,60,110] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [247,60,110] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [248,60,110] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [249,60,110] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [250,60,110] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [251,60,110] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [252,60,110] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [253,60,110] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [254,60,110] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi snapshots match for all variations of status byte: [255,60,110] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 110,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;

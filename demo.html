@@ -10,18 +10,24 @@
 			font-size: 18px;
 			color: #333;
 		}
+		a {
+			color: #0066ff;
+		}
 	</style>
 </head>
 <body>
-	<p>Open the console to see the <code>parse-midi</code> module respond to MIDI input.</p>
+	<p>Open the console to see the parse-midi module respond to MIDI input.</p>
 	<p>Your browser must support:</p>
 	<ul>
 		<li>ES6</li>
 		<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess">MIDIAccess interface</a></li>
-		<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"><code>&lt;script type="module"&gt;</code></a></li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script">&lt;script type="module"&gt;</a></li>
 	</ul>
 	<script type="module">
 		import parseMidi from './dist/parseMidi.js';
+
+		// Expose to global scope so users can test in the console
+		window.parseMidi = parseMidi;
 
 		const listenAll = (inputs) => {
 			Array.from(inputs.values()).forEach(input => {
@@ -44,7 +50,6 @@
 				const { name, state } = event.port;
 				console.log(`${name} is now ${state}`);
 
-				// TODO: Do we need to unregister event listeners when disconnecting?
 				if (state === 'connected') {
 					listenAll(event.target.inputs);
 				}

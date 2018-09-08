@@ -3,6 +3,16 @@ import { BITS_PER_DATA, PITCH_BEND_NEUTRAL } from './lib/constants.js';
 
 type RawMidiData = Uint8Array | number[];
 
+/**
+ * Combine "Most Significant Byte" and "Least Significant Byte" for
+ * parameters that use 2 bytes instead of just 1 for increased resolution.
+ */
+const combineMsbAndLsb = (msb: number, lsb: number) =>
+	(msb << BITS_PER_DATA) + lsb;
+
+/**
+ * Parse data from a midimessage event.
+ */
 const parseMidi = ([status, data1, data2]: RawMidiData) => {
 	/*
 		Status byte is, as the name suggests, 1 byte:
@@ -90,13 +100,26 @@ const parseMidi = ([status, data1, data2]: RawMidiData) => {
 
 		case 0xE0: {
 			const messageType = 'pitchbendchange';
-			const pitchBend = (data2 << BITS_PER_DATA) + data1;
+			const pitchBend = combineMsbAndLsb(data2, data1);
+			/*
+				Minimum is 0
+				Neutral is 8,192
+				Maximum is 16,383
+
+				To map the min and max to -1 and 1, while ensuring neutral
+				(8,192) is exactly 0, we need to divide by slightly different
+				values depending on whether the pitch bend is up or down, as
+				up has 1 less possible value.
+			*/
+			const divider = pitchBend <= PITCH_BEND_NEUTRAL
+				? PITCH_BEND_NEUTRAL
+				: (PITCH_BEND_NEUTRAL - 1);
 
 			return {
 				...sharedData,
 				messageType: messageType as typeof messageType,
 				pitchBend,
-				pitchBendMultiplier: (pitchBend - PITCH_BEND_NEUTRAL) / PITCH_BEND_NEUTRAL,
+				pitchBendMultiplier: (pitchBend - PITCH_BEND_NEUTRAL) / divider,
 			};
 		}
 

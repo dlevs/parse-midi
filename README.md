@@ -2,6 +2,12 @@
 
 A small parser for MIDI messages.
 
+The parser follows [midi.org's MIDI 1.0 specification](https://www.midi.org/specifications-old/item/the-midi-1-0-specification), meaning it:
+
+- Identifies the channel and message type (`"noteon"`, `"noteoff"`, `"controlchange"`...) of a MIDI message
+- Provides human-readable strings corresponding to the default mapping for every control change message (`"volume"`, `"pan"`, `"effect1"`...)
+- Provides human-readable strings for each channel mode message (`"allnotesoff"`, `"resetallcontrollers"`, `"polymodeon"`...)
+
 ## Installation
 
 ```bash

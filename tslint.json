@@ -1,7 +1,6 @@
 {
   "extends": ["@dlevs/tslint-config"],
   "rules": {
-    "switch-default": false,
-    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}]
+    "switch-default": false
   }
 }

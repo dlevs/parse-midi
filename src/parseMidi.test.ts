@@ -4,7 +4,7 @@ const matchSnapshot = midiData => {
 	expect(parseMidi(midiData)).toMatchSnapshot(JSON.stringify(midiData));
 };
 
-describe('parseMidi', () => {
+describe('parseMidi()', () => {
 	test('parses note on messages correctly on different channels', () => {
 		expect(parseMidi([144, 60, 110])).toEqual({
 			messageCode: 144,

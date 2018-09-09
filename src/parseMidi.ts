@@ -1,14 +1,6 @@
 import getControlFunction from './lib/getControlFunction';
-import { BITS_PER_DATA, PITCH_BEND_NEUTRAL } from './lib/constants';
-
-/**
- * Combine "Most Significant Byte" and "Least Significant Byte" for
- * parameters that use 2 bytes instead of just 1 for increased resolution.
- *
- * TODO: Move
- */
-const combineMsbAndLsb = (msb: number, lsb: number) =>
-	(msb << BITS_PER_DATA) + lsb;
+import { PITCH_BEND_NEUTRAL } from './lib/constants';
+import { combineMsbAndLsb } from './lib/numberUtils';
 
 /**
  * Parse data from a midimessage event.

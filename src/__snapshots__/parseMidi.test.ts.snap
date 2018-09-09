@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,0,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,0,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "bankselect",
@@ -11,7 +11,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,0,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,0,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "bankselect",
@@ -22,7 +22,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,1,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,1,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "modulation",
@@ -33,7 +33,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,1,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,1,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "modulation",
@@ -44,7 +44,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,2,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,2,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "breathcontroller",
@@ -55,7 +55,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,2,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,2,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "breathcontroller",
@@ -66,7 +66,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,3,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,3,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -77,7 +77,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,3,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,3,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -88,7 +88,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,4,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,4,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "footcontroller",
@@ -99,7 +99,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,4,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,4,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "footcontroller",
@@ -110,7 +110,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,5,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,5,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentotime",
@@ -121,7 +121,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,5,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,5,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentotime",
@@ -132,7 +132,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,6,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,6,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "dataentry",
@@ -143,7 +143,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,6,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,6,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "dataentry",
@@ -154,7 +154,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,7,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,7,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "volume",
@@ -165,7 +165,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,7,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,7,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "volume",
@@ -176,7 +176,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,8,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,8,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "balance",
@@ -187,7 +187,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,8,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,8,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "balance",
@@ -198,7 +198,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,9,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,9,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -209,7 +209,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,9,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,9,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -220,7 +220,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,10,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,10,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "pan",
@@ -231,7 +231,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,10,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,10,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "pan",
@@ -242,7 +242,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,11,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,11,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "expressioncontroller",
@@ -253,7 +253,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,11,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,11,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "expressioncontroller",
@@ -264,7 +264,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,12,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,12,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect1",
@@ -275,7 +275,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,12,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,12,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect1",
@@ -286,7 +286,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,13,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,13,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect2",
@@ -297,7 +297,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,13,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,13,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect2",
@@ -308,7 +308,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,14,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,14,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -319,7 +319,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,14,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,14,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -330,7 +330,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,15,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,15,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -341,7 +341,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,15,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,15,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -352,7 +352,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,16,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,16,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller1",
@@ -363,7 +363,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,16,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,16,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller1",
@@ -374,7 +374,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,17,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,17,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller2",
@@ -385,7 +385,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,17,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,17,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller2",
@@ -396,7 +396,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,18,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,18,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller3",
@@ -407,7 +407,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,18,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,18,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller3",
@@ -418,7 +418,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,19,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,19,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller4",
@@ -429,7 +429,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,19,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,19,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller4",
@@ -440,7 +440,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,20,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,20,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -451,7 +451,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,20,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,20,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -462,7 +462,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,21,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,21,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -473,7 +473,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,21,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,21,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -484,7 +484,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,22,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,22,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -495,7 +495,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,22,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,22,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -506,7 +506,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,23,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,23,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -517,7 +517,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,23,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,23,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -528,7 +528,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,24,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,24,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -539,7 +539,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,24,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,24,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -550,7 +550,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,25,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,25,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -561,7 +561,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,25,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,25,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -572,7 +572,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,26,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,26,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -583,7 +583,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,26,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,26,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -594,7 +594,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,27,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,27,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -605,7 +605,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,27,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,27,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -616,7 +616,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,28,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,28,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -627,7 +627,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,28,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,28,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -638,7 +638,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,29,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,29,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -649,7 +649,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,29,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,29,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -660,7 +660,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,30,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,30,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -671,7 +671,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,30,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,30,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -682,7 +682,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,31,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,31,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -693,7 +693,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,31,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,31,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -704,7 +704,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,32,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,32,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "bankselectfine",
@@ -715,7 +715,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,32,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,32,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "bankselectfine",
@@ -726,7 +726,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,33,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,33,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "modulationfine",
@@ -737,7 +737,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,33,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,33,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "modulationfine",
@@ -748,7 +748,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,34,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,34,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "breathcontrollerfine",
@@ -759,7 +759,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,34,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,34,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "breathcontrollerfine",
@@ -770,7 +770,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,35,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,35,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -781,7 +781,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,35,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,35,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -792,7 +792,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,36,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,36,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "footcontrollerfine",
@@ -803,7 +803,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,36,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,36,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "footcontrollerfine",
@@ -814,7 +814,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,37,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,37,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentotimefine",
@@ -825,7 +825,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,37,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,37,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentotimefine",
@@ -836,7 +836,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,38,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,38,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "dataentryfine",
@@ -847,7 +847,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,38,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,38,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "dataentryfine",
@@ -858,7 +858,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,39,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,39,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "volumefine",
@@ -869,7 +869,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,39,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,39,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "volumefine",
@@ -880,7 +880,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,40,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,40,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "balancefine",
@@ -891,7 +891,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,40,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,40,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "balancefine",
@@ -902,7 +902,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,41,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,41,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -913,7 +913,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,41,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,41,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -924,7 +924,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,42,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,42,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "panfine",
@@ -935,7 +935,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,42,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,42,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "panfine",
@@ -946,7 +946,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,43,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,43,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "expressioncontrollerfine",
@@ -957,7 +957,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,43,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,43,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "expressioncontrollerfine",
@@ -968,7 +968,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,44,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,44,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect1fine",
@@ -979,7 +979,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,44,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,44,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect1fine",
@@ -990,7 +990,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,45,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,45,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect2fine",
@@ -1001,7 +1001,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,45,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,45,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effect2fine",
@@ -1012,7 +1012,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,46,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,46,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1023,7 +1023,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,46,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,46,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1034,7 +1034,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,47,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,47,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1045,7 +1045,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,47,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,47,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1056,7 +1056,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,48,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,48,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller1fine",
@@ -1067,7 +1067,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,48,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,48,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller1fine",
@@ -1078,7 +1078,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,49,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,49,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller2fine",
@@ -1089,7 +1089,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,49,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,49,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller2fine",
@@ -1100,7 +1100,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,50,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,50,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller3fine",
@@ -1111,7 +1111,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,50,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,50,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller3fine",
@@ -1122,7 +1122,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,51,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,51,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller4fine",
@@ -1133,7 +1133,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,51,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,51,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller4fine",
@@ -1144,7 +1144,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,52,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,52,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1155,7 +1155,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,52,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,52,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1166,7 +1166,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,53,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,53,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1177,7 +1177,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,53,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,53,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1188,7 +1188,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,54,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,54,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1199,7 +1199,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,54,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,54,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1210,7 +1210,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,55,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,55,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1221,7 +1221,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,55,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,55,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1232,7 +1232,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,56,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,56,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1243,7 +1243,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,56,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,56,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1254,7 +1254,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,57,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,57,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1265,7 +1265,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,57,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,57,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1276,7 +1276,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,58,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,58,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1287,7 +1287,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,58,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,58,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1298,7 +1298,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,59,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,59,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1309,7 +1309,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,59,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,59,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1320,7 +1320,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,60,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,60,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1331,7 +1331,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,60,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,60,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1342,7 +1342,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,61,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,61,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1353,7 +1353,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,61,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,61,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1364,7 +1364,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,62,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,62,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1375,7 +1375,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,62,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,62,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1386,7 +1386,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,63,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,63,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1397,7 +1397,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,63,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,63,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1408,7 +1408,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,64,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,64,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "sustainoff",
@@ -1419,7 +1419,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,64,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,64,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "sustainon",
@@ -1430,7 +1430,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,65,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,65,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentooff",
@@ -1441,7 +1441,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,65,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,65,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentoon",
@@ -1452,7 +1452,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,66,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,66,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "sostenutooff",
@@ -1463,7 +1463,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,66,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,66,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "sostenutoon",
@@ -1474,7 +1474,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,67,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,67,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "softoff",
@@ -1485,7 +1485,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,67,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,67,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "softon",
@@ -1496,7 +1496,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,68,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,68,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "legatooff",
@@ -1507,7 +1507,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,68,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,68,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "legatoon",
@@ -1518,7 +1518,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,69,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,69,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "hold2off",
@@ -1529,7 +1529,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,69,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,69,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "hold2on",
@@ -1540,7 +1540,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,70,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,70,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller1",
@@ -1551,7 +1551,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,70,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,70,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller1",
@@ -1562,7 +1562,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,71,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,71,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller2",
@@ -1573,7 +1573,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,71,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,71,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller2",
@@ -1584,7 +1584,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,72,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,72,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller3",
@@ -1595,7 +1595,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,72,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,72,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller3",
@@ -1606,7 +1606,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,73,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,73,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller4",
@@ -1617,7 +1617,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,73,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,73,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller4",
@@ -1628,7 +1628,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,74,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,74,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller5",
@@ -1639,7 +1639,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,74,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,74,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller5",
@@ -1650,7 +1650,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,75,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,75,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller6",
@@ -1661,7 +1661,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,75,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,75,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller6",
@@ -1672,7 +1672,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,76,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,76,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller7",
@@ -1683,7 +1683,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,76,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,76,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller7",
@@ -1694,7 +1694,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,77,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,77,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller8",
@@ -1705,7 +1705,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,77,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,77,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller8",
@@ -1716,7 +1716,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,78,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,78,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller9",
@@ -1727,7 +1727,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,78,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,78,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller9",
@@ -1738,7 +1738,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,79,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,79,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller10",
@@ -1749,7 +1749,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,79,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,79,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "soundcontroller10",
@@ -1760,7 +1760,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,80,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,80,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller5",
@@ -1771,7 +1771,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,80,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,80,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller5",
@@ -1782,7 +1782,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,81,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,81,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller6",
@@ -1793,7 +1793,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,81,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,81,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller6",
@@ -1804,7 +1804,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,82,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,82,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller7",
@@ -1815,7 +1815,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,82,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,82,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller7",
@@ -1826,7 +1826,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,83,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,83,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller8",
@@ -1837,7 +1837,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,83,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,83,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "generalpurposecontroller8",
@@ -1848,7 +1848,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,84,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,84,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentocontrol",
@@ -1859,7 +1859,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,84,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,84,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "portamentocontrol",
@@ -1870,7 +1870,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,85,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,85,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1881,7 +1881,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,85,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,85,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1892,7 +1892,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,86,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,86,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1903,7 +1903,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,86,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,86,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1914,7 +1914,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,87,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,87,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1925,7 +1925,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,87,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,87,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1936,7 +1936,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,88,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,88,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1947,7 +1947,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,88,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,88,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1958,7 +1958,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,89,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,89,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1969,7 +1969,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,89,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,89,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1980,7 +1980,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,90,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,90,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -1991,7 +1991,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,90,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,90,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2002,7 +2002,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,91,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,91,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth1",
@@ -2013,7 +2013,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,91,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,91,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth1",
@@ -2024,7 +2024,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,92,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,92,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth2",
@@ -2035,7 +2035,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,92,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,92,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth2",
@@ -2046,7 +2046,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,93,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,93,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth3",
@@ -2057,7 +2057,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,93,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,93,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth3",
@@ -2068,7 +2068,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,94,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,94,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth4",
@@ -2079,7 +2079,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,94,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,94,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth4",
@@ -2090,7 +2090,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,95,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,95,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth5",
@@ -2101,7 +2101,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,95,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,95,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "effectdepth5",
@@ -2112,7 +2112,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,96,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,96,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "dataincrement",
@@ -2123,7 +2123,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,96,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,96,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "dataincrement",
@@ -2134,7 +2134,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,97,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,97,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "datadecrement",
@@ -2145,7 +2145,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,97,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,97,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "datadecrement",
@@ -2156,7 +2156,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,98,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,98,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "nonregisteredparameternumberfine",
@@ -2167,7 +2167,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,98,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,98,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "nonregisteredparameternumberfine",
@@ -2178,7 +2178,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,99,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,99,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "nonregisteredparameternumber",
@@ -2189,7 +2189,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,99,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,99,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "nonregisteredparameternumber",
@@ -2200,7 +2200,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,100,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,100,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "registeredparameternumberfine",
@@ -2211,7 +2211,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,100,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,100,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "registeredparameternumberfine",
@@ -2222,7 +2222,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,101,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,101,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "registeredparameternumber",
@@ -2233,7 +2233,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,101,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,101,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": "registeredparameternumber",
@@ -2244,7 +2244,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,102,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,102,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2255,7 +2255,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,102,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,102,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2266,7 +2266,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,103,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,103,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2277,7 +2277,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,103,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,103,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2288,7 +2288,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,104,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,104,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2299,7 +2299,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,104,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,104,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2310,7 +2310,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,105,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,105,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2321,7 +2321,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,105,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,105,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2332,7 +2332,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,106,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,106,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2343,7 +2343,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,106,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,106,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2354,7 +2354,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,107,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,107,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2365,7 +2365,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,107,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,107,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2376,7 +2376,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,108,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,108,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2387,7 +2387,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,108,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,108,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2398,7 +2398,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,109,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,109,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2409,7 +2409,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,109,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,109,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2420,7 +2420,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,110,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,110,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2431,7 +2431,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,110,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,110,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2442,7 +2442,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,111,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,111,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2453,7 +2453,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,111,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,111,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2464,7 +2464,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,112,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,112,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2475,7 +2475,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,112,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,112,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2486,7 +2486,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,113,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,113,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2497,7 +2497,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,113,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,113,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2508,7 +2508,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,114,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,114,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2519,7 +2519,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,114,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,114,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2530,7 +2530,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,115,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,115,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2541,7 +2541,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,115,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,115,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2552,7 +2552,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,116,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,116,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2563,7 +2563,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,116,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,116,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2574,7 +2574,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,117,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,117,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2585,7 +2585,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,117,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,117,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2596,7 +2596,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,118,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,118,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2607,7 +2607,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,118,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,118,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2618,7 +2618,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,119,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,119,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2629,7 +2629,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,119,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,119,127] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -2640,7 +2640,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,120,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,120,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "allsoundoff",
@@ -2651,7 +2651,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,120,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,120,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": null,
@@ -2662,7 +2662,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,121,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,121,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "resetallcontrollers",
@@ -2673,7 +2673,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,121,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,121,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": null,
@@ -2684,7 +2684,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,122,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,122,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "localcontroloff",
@@ -2695,7 +2695,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,122,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,122,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "localcontrolon",
@@ -2706,7 +2706,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,123,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,123,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "allnotesoff",
@@ -2717,7 +2717,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,123,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,123,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": null,
@@ -2728,7 +2728,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,124,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,124,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "omnimodeoff",
@@ -2739,7 +2739,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,124,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,124,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": null,
@@ -2750,7 +2750,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,125,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,125,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "omnimodeon",
@@ -2761,7 +2761,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,125,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,125,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": null,
@@ -2772,7 +2772,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,126,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,126,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "monomodeon",
@@ -2783,7 +2783,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,126,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,126,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "monomodeon",
@@ -2794,7 +2794,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,127,0] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,127,0] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": "polymodeon",
@@ -2805,7 +2805,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of control change messages: [176,127,127] 1`] = `
+exports[`parseMidi() snapshots match for all variations of control change messages: [176,127,127] 1`] = `
 Object {
   "channel": 1,
   "channelModeMessage": null,
@@ -2816,7 +2816,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [0,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [0,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -2826,7 +2826,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [1,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [1,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -2836,7 +2836,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [2,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [2,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -2846,7 +2846,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [3,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [3,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -2856,7 +2856,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [4,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [4,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -2866,7 +2866,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [5,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [5,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -2876,7 +2876,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [6,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [6,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -2886,7 +2886,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [7,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [7,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -2896,7 +2896,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [8,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [8,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -2906,7 +2906,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [9,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [9,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -2916,7 +2916,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [10,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [10,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -2926,7 +2926,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [11,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [11,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -2936,7 +2936,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [12,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [12,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -2946,7 +2946,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [13,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [13,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -2956,7 +2956,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [14,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [14,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -2966,7 +2966,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [15,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [15,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -2976,7 +2976,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [16,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [16,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -2986,7 +2986,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [17,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [17,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -2996,7 +2996,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [18,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [18,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -3006,7 +3006,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [19,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [19,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -3016,7 +3016,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [20,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [20,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -3026,7 +3026,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [21,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [21,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -3036,7 +3036,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [22,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [22,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -3046,7 +3046,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [23,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [23,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -3056,7 +3056,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [24,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [24,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -3066,7 +3066,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [25,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [25,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -3076,7 +3076,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [26,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [26,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -3086,7 +3086,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [27,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [27,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -3096,7 +3096,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [28,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [28,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -3106,7 +3106,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [29,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [29,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -3116,7 +3116,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [30,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [30,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -3126,7 +3126,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [31,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [31,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -3136,7 +3136,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [32,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [32,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -3146,7 +3146,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [33,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [33,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -3156,7 +3156,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [34,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [34,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -3166,7 +3166,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [35,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [35,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -3176,7 +3176,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [36,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [36,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -3186,7 +3186,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [37,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [37,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -3196,7 +3196,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [38,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [38,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -3206,7 +3206,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [39,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [39,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -3216,7 +3216,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [40,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [40,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -3226,7 +3226,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [41,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [41,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -3236,7 +3236,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [42,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [42,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -3246,7 +3246,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [43,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [43,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -3256,7 +3256,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [44,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [44,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -3266,7 +3266,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [45,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [45,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -3276,7 +3276,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [46,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [46,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -3286,7 +3286,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [47,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [47,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -3296,7 +3296,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [48,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [48,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -3306,7 +3306,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [49,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [49,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -3316,7 +3316,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [50,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [50,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -3326,7 +3326,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [51,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [51,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -3336,7 +3336,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [52,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [52,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -3346,7 +3346,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [53,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [53,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -3356,7 +3356,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [54,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [54,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -3366,7 +3366,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [55,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [55,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -3376,7 +3376,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [56,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [56,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -3386,7 +3386,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [57,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [57,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -3396,7 +3396,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [58,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [58,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -3406,7 +3406,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [59,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [59,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -3416,7 +3416,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [60,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [60,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -3426,7 +3426,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [61,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [61,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -3436,7 +3436,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [62,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [62,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -3446,7 +3446,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [63,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [63,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -3456,7 +3456,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [64,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [64,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -3466,7 +3466,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [65,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [65,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -3476,7 +3476,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [66,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [66,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -3486,7 +3486,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [67,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [67,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -3496,7 +3496,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [68,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [68,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -3506,7 +3506,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [69,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [69,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -3516,7 +3516,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [70,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [70,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -3526,7 +3526,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [71,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [71,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -3536,7 +3536,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [72,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [72,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -3546,7 +3546,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [73,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [73,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -3556,7 +3556,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [74,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [74,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -3566,7 +3566,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [75,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [75,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -3576,7 +3576,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [76,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [76,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -3586,7 +3586,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [77,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [77,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -3596,7 +3596,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [78,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [78,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -3606,7 +3606,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [79,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [79,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -3616,7 +3616,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [80,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [80,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -3626,7 +3626,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [81,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [81,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -3636,7 +3636,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [82,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [82,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -3646,7 +3646,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [83,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [83,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -3656,7 +3656,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [84,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [84,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -3666,7 +3666,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [85,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [85,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -3676,7 +3676,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [86,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [86,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -3686,7 +3686,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [87,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [87,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -3696,7 +3696,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [88,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [88,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -3706,7 +3706,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [89,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [89,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -3716,7 +3716,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [90,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [90,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -3726,7 +3726,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [91,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [91,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -3736,7 +3736,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [92,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [92,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -3746,7 +3746,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [93,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [93,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -3756,7 +3756,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [94,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [94,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -3766,7 +3766,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [95,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [95,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -3776,7 +3776,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [96,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [96,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -3786,7 +3786,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [97,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [97,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -3796,7 +3796,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [98,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [98,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -3806,7 +3806,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [99,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [99,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -3816,7 +3816,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [100,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [100,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -3826,7 +3826,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [101,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [101,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -3836,7 +3836,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [102,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [102,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -3846,7 +3846,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [103,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [103,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -3856,7 +3856,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [104,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [104,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -3866,7 +3866,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [105,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [105,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -3876,7 +3876,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [106,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [106,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -3886,7 +3886,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [107,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [107,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -3896,7 +3896,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [108,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [108,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -3906,7 +3906,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [109,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [109,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -3916,7 +3916,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [110,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [110,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -3926,7 +3926,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [111,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [111,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -3936,7 +3936,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [112,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [112,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -3946,7 +3946,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [113,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [113,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -3956,7 +3956,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [114,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [114,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -3966,7 +3966,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [115,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [115,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -3976,7 +3976,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [116,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [116,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -3986,7 +3986,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [117,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [117,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -3996,7 +3996,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [118,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [118,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -4006,7 +4006,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [119,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [119,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -4016,7 +4016,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [120,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [120,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -4026,7 +4026,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [121,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [121,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -4036,7 +4036,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [122,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [122,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -4046,7 +4046,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [123,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [123,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -4056,7 +4056,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [124,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [124,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -4066,7 +4066,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [125,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [125,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -4076,7 +4076,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [126,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [126,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -4086,7 +4086,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [127,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [127,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
@@ -4096,7 +4096,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [128,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [128,60,110] 1`] = `
 Object {
   "channel": 1,
   "key": 60,
@@ -4106,7 +4106,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [129,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [129,60,110] 1`] = `
 Object {
   "channel": 2,
   "key": 60,
@@ -4116,7 +4116,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [130,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [130,60,110] 1`] = `
 Object {
   "channel": 3,
   "key": 60,
@@ -4126,7 +4126,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [131,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [131,60,110] 1`] = `
 Object {
   "channel": 4,
   "key": 60,
@@ -4136,7 +4136,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [132,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [132,60,110] 1`] = `
 Object {
   "channel": 5,
   "key": 60,
@@ -4146,7 +4146,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [133,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [133,60,110] 1`] = `
 Object {
   "channel": 6,
   "key": 60,
@@ -4156,7 +4156,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [134,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [134,60,110] 1`] = `
 Object {
   "channel": 7,
   "key": 60,
@@ -4166,7 +4166,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [135,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [135,60,110] 1`] = `
 Object {
   "channel": 8,
   "key": 60,
@@ -4176,7 +4176,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [136,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [136,60,110] 1`] = `
 Object {
   "channel": 9,
   "key": 60,
@@ -4186,7 +4186,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [137,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [137,60,110] 1`] = `
 Object {
   "channel": 10,
   "key": 60,
@@ -4196,7 +4196,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [138,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [138,60,110] 1`] = `
 Object {
   "channel": 11,
   "key": 60,
@@ -4206,7 +4206,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [139,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [139,60,110] 1`] = `
 Object {
   "channel": 12,
   "key": 60,
@@ -4216,7 +4216,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [140,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [140,60,110] 1`] = `
 Object {
   "channel": 13,
   "key": 60,
@@ -4226,7 +4226,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [141,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [141,60,110] 1`] = `
 Object {
   "channel": 14,
   "key": 60,
@@ -4236,7 +4236,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [142,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [142,60,110] 1`] = `
 Object {
   "channel": 15,
   "key": 60,
@@ -4246,7 +4246,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [143,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [143,60,110] 1`] = `
 Object {
   "channel": 16,
   "key": 60,
@@ -4256,7 +4256,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [144,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [144,60,110] 1`] = `
 Object {
   "channel": 1,
   "key": 60,
@@ -4266,7 +4266,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [145,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [145,60,110] 1`] = `
 Object {
   "channel": 2,
   "key": 60,
@@ -4276,7 +4276,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [146,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [146,60,110] 1`] = `
 Object {
   "channel": 3,
   "key": 60,
@@ -4286,7 +4286,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [147,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [147,60,110] 1`] = `
 Object {
   "channel": 4,
   "key": 60,
@@ -4296,7 +4296,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [148,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [148,60,110] 1`] = `
 Object {
   "channel": 5,
   "key": 60,
@@ -4306,7 +4306,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [149,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [149,60,110] 1`] = `
 Object {
   "channel": 6,
   "key": 60,
@@ -4316,7 +4316,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [150,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [150,60,110] 1`] = `
 Object {
   "channel": 7,
   "key": 60,
@@ -4326,7 +4326,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [151,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [151,60,110] 1`] = `
 Object {
   "channel": 8,
   "key": 60,
@@ -4336,7 +4336,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [152,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [152,60,110] 1`] = `
 Object {
   "channel": 9,
   "key": 60,
@@ -4346,7 +4346,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [153,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [153,60,110] 1`] = `
 Object {
   "channel": 10,
   "key": 60,
@@ -4356,7 +4356,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [154,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [154,60,110] 1`] = `
 Object {
   "channel": 11,
   "key": 60,
@@ -4366,7 +4366,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [155,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [155,60,110] 1`] = `
 Object {
   "channel": 12,
   "key": 60,
@@ -4376,7 +4376,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [156,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [156,60,110] 1`] = `
 Object {
   "channel": 13,
   "key": 60,
@@ -4386,7 +4386,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [157,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [157,60,110] 1`] = `
 Object {
   "channel": 14,
   "key": 60,
@@ -4396,7 +4396,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [158,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [158,60,110] 1`] = `
 Object {
   "channel": 15,
   "key": 60,
@@ -4406,7 +4406,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [159,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [159,60,110] 1`] = `
 Object {
   "channel": 16,
   "key": 60,
@@ -4416,7 +4416,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [160,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [160,60,110] 1`] = `
 Object {
   "channel": 1,
   "key": 60,
@@ -4426,7 +4426,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [161,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [161,60,110] 1`] = `
 Object {
   "channel": 2,
   "key": 60,
@@ -4436,7 +4436,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [162,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [162,60,110] 1`] = `
 Object {
   "channel": 3,
   "key": 60,
@@ -4446,7 +4446,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [163,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [163,60,110] 1`] = `
 Object {
   "channel": 4,
   "key": 60,
@@ -4456,7 +4456,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [164,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [164,60,110] 1`] = `
 Object {
   "channel": 5,
   "key": 60,
@@ -4466,7 +4466,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [165,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [165,60,110] 1`] = `
 Object {
   "channel": 6,
   "key": 60,
@@ -4476,7 +4476,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [166,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [166,60,110] 1`] = `
 Object {
   "channel": 7,
   "key": 60,
@@ -4486,7 +4486,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [167,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [167,60,110] 1`] = `
 Object {
   "channel": 8,
   "key": 60,
@@ -4496,7 +4496,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [168,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [168,60,110] 1`] = `
 Object {
   "channel": 9,
   "key": 60,
@@ -4506,7 +4506,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [169,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [169,60,110] 1`] = `
 Object {
   "channel": 10,
   "key": 60,
@@ -4516,7 +4516,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [170,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [170,60,110] 1`] = `
 Object {
   "channel": 11,
   "key": 60,
@@ -4526,7 +4526,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [171,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [171,60,110] 1`] = `
 Object {
   "channel": 12,
   "key": 60,
@@ -4536,7 +4536,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [172,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [172,60,110] 1`] = `
 Object {
   "channel": 13,
   "key": 60,
@@ -4546,7 +4546,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [173,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [173,60,110] 1`] = `
 Object {
   "channel": 14,
   "key": 60,
@@ -4556,7 +4556,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [174,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [174,60,110] 1`] = `
 Object {
   "channel": 15,
   "key": 60,
@@ -4566,7 +4566,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [175,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [175,60,110] 1`] = `
 Object {
   "channel": 16,
   "key": 60,
@@ -4576,7 +4576,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [176,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [176,60,110] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
@@ -4587,7 +4587,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [177,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [177,60,110] 1`] = `
 Object {
   "channel": 2,
   "controlFunction": null,
@@ -4598,7 +4598,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [178,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [178,60,110] 1`] = `
 Object {
   "channel": 3,
   "controlFunction": null,
@@ -4609,7 +4609,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [179,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [179,60,110] 1`] = `
 Object {
   "channel": 4,
   "controlFunction": null,
@@ -4620,7 +4620,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [180,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [180,60,110] 1`] = `
 Object {
   "channel": 5,
   "controlFunction": null,
@@ -4631,7 +4631,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [181,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [181,60,110] 1`] = `
 Object {
   "channel": 6,
   "controlFunction": null,
@@ -4642,7 +4642,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [182,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [182,60,110] 1`] = `
 Object {
   "channel": 7,
   "controlFunction": null,
@@ -4653,7 +4653,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [183,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [183,60,110] 1`] = `
 Object {
   "channel": 8,
   "controlFunction": null,
@@ -4664,7 +4664,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [184,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [184,60,110] 1`] = `
 Object {
   "channel": 9,
   "controlFunction": null,
@@ -4675,7 +4675,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [185,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [185,60,110] 1`] = `
 Object {
   "channel": 10,
   "controlFunction": null,
@@ -4686,7 +4686,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [186,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [186,60,110] 1`] = `
 Object {
   "channel": 11,
   "controlFunction": null,
@@ -4697,7 +4697,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [187,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [187,60,110] 1`] = `
 Object {
   "channel": 12,
   "controlFunction": null,
@@ -4708,7 +4708,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [188,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [188,60,110] 1`] = `
 Object {
   "channel": 13,
   "controlFunction": null,
@@ -4719,7 +4719,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [189,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [189,60,110] 1`] = `
 Object {
   "channel": 14,
   "controlFunction": null,
@@ -4730,7 +4730,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [190,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [190,60,110] 1`] = `
 Object {
   "channel": 15,
   "controlFunction": null,
@@ -4741,7 +4741,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [191,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [191,60,110] 1`] = `
 Object {
   "channel": 16,
   "controlFunction": null,
@@ -4752,7 +4752,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [192,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [192,60,110] 1`] = `
 Object {
   "channel": 1,
   "messageCode": 192,
@@ -4761,7 +4761,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [193,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [193,60,110] 1`] = `
 Object {
   "channel": 2,
   "messageCode": 192,
@@ -4770,7 +4770,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [194,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [194,60,110] 1`] = `
 Object {
   "channel": 3,
   "messageCode": 192,
@@ -4779,7 +4779,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [195,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [195,60,110] 1`] = `
 Object {
   "channel": 4,
   "messageCode": 192,
@@ -4788,7 +4788,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [196,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [196,60,110] 1`] = `
 Object {
   "channel": 5,
   "messageCode": 192,
@@ -4797,7 +4797,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [197,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [197,60,110] 1`] = `
 Object {
   "channel": 6,
   "messageCode": 192,
@@ -4806,7 +4806,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [198,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [198,60,110] 1`] = `
 Object {
   "channel": 7,
   "messageCode": 192,
@@ -4815,7 +4815,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [199,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [199,60,110] 1`] = `
 Object {
   "channel": 8,
   "messageCode": 192,
@@ -4824,7 +4824,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [200,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [200,60,110] 1`] = `
 Object {
   "channel": 9,
   "messageCode": 192,
@@ -4833,7 +4833,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [201,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [201,60,110] 1`] = `
 Object {
   "channel": 10,
   "messageCode": 192,
@@ -4842,7 +4842,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [202,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [202,60,110] 1`] = `
 Object {
   "channel": 11,
   "messageCode": 192,
@@ -4851,7 +4851,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [203,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [203,60,110] 1`] = `
 Object {
   "channel": 12,
   "messageCode": 192,
@@ -4860,7 +4860,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [204,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [204,60,110] 1`] = `
 Object {
   "channel": 13,
   "messageCode": 192,
@@ -4869,7 +4869,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [205,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [205,60,110] 1`] = `
 Object {
   "channel": 14,
   "messageCode": 192,
@@ -4878,7 +4878,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [206,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [206,60,110] 1`] = `
 Object {
   "channel": 15,
   "messageCode": 192,
@@ -4887,7 +4887,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [207,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [207,60,110] 1`] = `
 Object {
   "channel": 16,
   "messageCode": 192,
@@ -4896,7 +4896,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [208,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [208,60,110] 1`] = `
 Object {
   "channel": 1,
   "messageCode": 208,
@@ -4905,7 +4905,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [209,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [209,60,110] 1`] = `
 Object {
   "channel": 2,
   "messageCode": 208,
@@ -4914,7 +4914,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [210,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [210,60,110] 1`] = `
 Object {
   "channel": 3,
   "messageCode": 208,
@@ -4923,7 +4923,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [211,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [211,60,110] 1`] = `
 Object {
   "channel": 4,
   "messageCode": 208,
@@ -4932,7 +4932,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [212,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [212,60,110] 1`] = `
 Object {
   "channel": 5,
   "messageCode": 208,
@@ -4941,7 +4941,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [213,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [213,60,110] 1`] = `
 Object {
   "channel": 6,
   "messageCode": 208,
@@ -4950,7 +4950,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [214,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [214,60,110] 1`] = `
 Object {
   "channel": 7,
   "messageCode": 208,
@@ -4959,7 +4959,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [215,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [215,60,110] 1`] = `
 Object {
   "channel": 8,
   "messageCode": 208,
@@ -4968,7 +4968,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [216,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [216,60,110] 1`] = `
 Object {
   "channel": 9,
   "messageCode": 208,
@@ -4977,7 +4977,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [217,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [217,60,110] 1`] = `
 Object {
   "channel": 10,
   "messageCode": 208,
@@ -4986,7 +4986,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [218,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [218,60,110] 1`] = `
 Object {
   "channel": 11,
   "messageCode": 208,
@@ -4995,7 +4995,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [219,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [219,60,110] 1`] = `
 Object {
   "channel": 12,
   "messageCode": 208,
@@ -5004,7 +5004,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [220,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [220,60,110] 1`] = `
 Object {
   "channel": 13,
   "messageCode": 208,
@@ -5013,7 +5013,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [221,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [221,60,110] 1`] = `
 Object {
   "channel": 14,
   "messageCode": 208,
@@ -5022,7 +5022,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [222,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [222,60,110] 1`] = `
 Object {
   "channel": 15,
   "messageCode": 208,
@@ -5031,7 +5031,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [223,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [223,60,110] 1`] = `
 Object {
   "channel": 16,
   "messageCode": 208,
@@ -5040,7 +5040,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [224,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [224,60,110] 1`] = `
 Object {
   "channel": 1,
   "messageCode": 224,
@@ -5050,7 +5050,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [225,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [225,60,110] 1`] = `
 Object {
   "channel": 2,
   "messageCode": 224,
@@ -5060,7 +5060,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [226,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [226,60,110] 1`] = `
 Object {
   "channel": 3,
   "messageCode": 224,
@@ -5070,7 +5070,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [227,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [227,60,110] 1`] = `
 Object {
   "channel": 4,
   "messageCode": 224,
@@ -5080,7 +5080,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [228,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [228,60,110] 1`] = `
 Object {
   "channel": 5,
   "messageCode": 224,
@@ -5090,7 +5090,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [229,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [229,60,110] 1`] = `
 Object {
   "channel": 6,
   "messageCode": 224,
@@ -5100,7 +5100,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [230,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [230,60,110] 1`] = `
 Object {
   "channel": 7,
   "messageCode": 224,
@@ -5110,7 +5110,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [231,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [231,60,110] 1`] = `
 Object {
   "channel": 8,
   "messageCode": 224,
@@ -5120,7 +5120,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [232,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [232,60,110] 1`] = `
 Object {
   "channel": 9,
   "messageCode": 224,
@@ -5130,7 +5130,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [233,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [233,60,110] 1`] = `
 Object {
   "channel": 10,
   "messageCode": 224,
@@ -5140,7 +5140,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [234,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [234,60,110] 1`] = `
 Object {
   "channel": 11,
   "messageCode": 224,
@@ -5150,7 +5150,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [235,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [235,60,110] 1`] = `
 Object {
   "channel": 12,
   "messageCode": 224,
@@ -5160,7 +5160,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [236,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [236,60,110] 1`] = `
 Object {
   "channel": 13,
   "messageCode": 224,
@@ -5170,7 +5170,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [237,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [237,60,110] 1`] = `
 Object {
   "channel": 14,
   "messageCode": 224,
@@ -5180,7 +5180,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [238,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [238,60,110] 1`] = `
 Object {
   "channel": 15,
   "messageCode": 224,
@@ -5190,7 +5190,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [239,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [239,60,110] 1`] = `
 Object {
   "channel": 16,
   "messageCode": 224,
@@ -5200,7 +5200,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [240,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [240,60,110] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
@@ -5210,7 +5210,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [241,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [241,60,110] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
@@ -5220,7 +5220,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [242,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [242,60,110] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
@@ -5230,7 +5230,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [243,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [243,60,110] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
@@ -5240,7 +5240,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [244,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [244,60,110] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
@@ -5250,7 +5250,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [245,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [245,60,110] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
@@ -5260,7 +5260,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [246,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [246,60,110] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
@@ -5270,7 +5270,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [247,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [247,60,110] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
@@ -5280,7 +5280,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [248,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [248,60,110] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
@@ -5290,7 +5290,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [249,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [249,60,110] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
@@ -5300,7 +5300,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [250,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [250,60,110] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
@@ -5310,7 +5310,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [251,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [251,60,110] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
@@ -5320,7 +5320,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [252,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [252,60,110] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
@@ -5330,7 +5330,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [253,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [253,60,110] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
@@ -5340,7 +5340,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [254,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [254,60,110] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
@@ -5350,7 +5350,7 @@ Object {
 }
 `;
 
-exports[`parseMidi snapshots match for all variations of status byte: [255,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [255,60,110] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,

@@ -4,8 +4,10 @@
   "description": "A small parser for MIDI messages.",
   "main": "dist/parseMidi.js",
   "scripts": {
-    "start": "npm run clean && tsc -w",
-    "build": "npm run clean && tsc",
+    "start": "npm run clean && npm run build:demo -- -w",
+    "build": "npm run clean && npm run build:es6 && npm run build:demo",
+    "build:es6": "tsc",
+    "build:demo": "tsc --target ES5 --module system --outFile dist/demoBundle.js",
     "clean": "rimraf dist",
     "lint": "tslint --format stylish --project .",
     "test": "jest",

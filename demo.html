@@ -17,27 +17,21 @@
 </head>
 <body>
 	<p>Open the console to see the parse-midi module respond to MIDI input.</p>
-	<p>Your browser must support:</p>
-	<ul>
-		<li>ES6</li>
-		<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess">MIDIAccess interface</a></li>
-		<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script">&lt;script type="module"&gt;</a></li>
-	</ul>
-	<script type="module">
-		import parseMidi from './dist/parseMidi.js';
-
-		// Expose to global scope so users can test in the console
-		window.parseMidi = parseMidi;
-
-		const listenAll = (inputs) => {
-			Array.from(inputs.values()).forEach(input => {
-				input.onmidimessage = (event) => {
-					console.log(JSON.stringify(parseMidi(event.data), null, 4));
-				};
-			});
-		}
-
+	<p>Your browser must support the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess">MIDIAccess interface</a>.</p>
+	<script src="https://unpkg.com/systemjs@0.21.4/dist/system-production.js"></script>
+	<script src="./dist/demoBundle.js"></script>
+	<script>
 		(async () => {
+			// Expose to global scope so users can test in the console
+			window.parseMidi = (await SystemJS.import('parseMidi')).default;
+
+			const listenAll = (inputs) => {
+				Array.from(inputs.values()).forEach(input => {
+					input.onmidimessage = (event) => {
+						console.log(JSON.stringify(parseMidi(event.data), null, 4));
+					};
+				});
+			}
 			const access = await navigator.requestMIDIAccess();
 
 			if (!access.inputs.size) {

@@ -1,11 +1,11 @@
-import getControlFunction from './lib/getControlFunction.js';
-import { BITS_PER_DATA, PITCH_BEND_NEUTRAL } from './lib/constants.js';
-
-type RawMidiData = Uint8Array | number[];
+import getControlFunction from './lib/getControlFunction';
+import { BITS_PER_DATA, PITCH_BEND_NEUTRAL } from './lib/constants';
 
 /**
  * Combine "Most Significant Byte" and "Least Significant Byte" for
  * parameters that use 2 bytes instead of just 1 for increased resolution.
+ *
+ * TODO: Move
  */
 const combineMsbAndLsb = (msb: number, lsb: number) =>
 	(msb << BITS_PER_DATA) + lsb;
@@ -13,7 +13,7 @@ const combineMsbAndLsb = (msb: number, lsb: number) =>
 /**
  * Parse data from a midimessage event.
  */
-const parseMidi = ([status, data1, data2]: RawMidiData) => {
+const parseMidi = ([status, data1, data2]: number[]) => {
 	/*
 		Status byte is, as the name suggests, 1 byte:
 		- 4 bits for the channel number (1-16)

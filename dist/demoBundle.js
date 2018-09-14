@@ -1,14 +1,3 @@
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 System.register("lib/getControlFunction", [], function (exports_1, context_1) {
     "use strict";
     var controlOnOrOff, controlValueMap, controlFunctions, getControlFunction;
@@ -16,14 +5,10 @@ System.register("lib/getControlFunction", [], function (exports_1, context_1) {
     return {
         setters: [],
         execute: function () {
-            controlOnOrOff = function (paramName) {
-                return function (value) { return value < 64
-                    ? paramName + "off"
-                    : paramName + "on"; };
-            };
-            controlValueMap = function (paramMap) {
-                return function (value) { return paramMap[value] || null; };
-            };
+            controlOnOrOff = (paramName) => value => value < 64
+                ? `${paramName}off`
+                : `${paramName}on`;
+            controlValueMap = (paramMap) => value => paramMap[value] || null;
             controlFunctions = {
                 // 0-31 MSB (Most Significant Byte / Coarse Value)
                 0: 'bankselect',
@@ -93,14 +78,14 @@ System.register("lib/getControlFunction", [], function (exports_1, context_1) {
                 126: 'monomodeon',
                 127: controlValueMap({ 0: 'polymodeon' }),
             };
-            for (var i = 0; i < 32; i++) {
-                var paramName = controlFunctions[i];
+            for (let i = 0; i < 32; i++) {
+                const paramName = controlFunctions[i];
                 if (paramName) {
-                    controlFunctions[i + 32] = paramName + "fine";
+                    controlFunctions[i + 32] = `${paramName}fine`;
                 }
             }
-            getControlFunction = function (controlNumber, controlValue) {
-                var paramName = controlFunctions[controlNumber];
+            getControlFunction = (controlNumber, controlValue) => {
+                const paramName = controlFunctions[controlNumber];
                 if (typeof paramName === 'string') {
                     return paramName;
                 }
@@ -142,9 +127,7 @@ System.register("lib/numberUtils", ["lib/constants"], function (exports_3, conte
              * Combine "Most Significant Byte" and "Least Significant Byte" for
              * parameters that use 2 bytes instead of just 1 for increased resolution.
              */
-            exports_3("combineMsbAndLsb", combineMsbAndLsb = function (msb, lsb) {
-                return (msb << constants_1.BITS_PER_DATA) + lsb;
-            });
+            exports_3("combineMsbAndLsb", combineMsbAndLsb = (msb, lsb) => (msb << constants_1.BITS_PER_DATA) + lsb);
         }
     };
 });
@@ -168,8 +151,7 @@ System.register("parseMidi", ["lib/getControlFunction", "lib/constants", "lib/nu
             /**
              * Parse data from a midimessage event.
              */
-            parseMidi = function (_a) {
-                var status = _a[0], data1 = _a[1], data2 = _a[2];
+            parseMidi = ([status, data1, data2]) => {
                 /*
                     Status byte is, as the name suggests, 1 byte:
                     - 4 bits for the channel number (1-16)
@@ -178,43 +160,43 @@ System.register("parseMidi", ["lib/getControlFunction", "lib/constants", "lib/nu
                     data1 and data2 are 7 bits (0-127). In some cases, they
                     are combined for a total of 14 bits (0-16383).
                 */
-                var sharedData = {
+                const sharedData = {
                     messageCode: status & 0xF0,
                     channel: (status & 0x0F) + 1,
                 };
                 switch (sharedData.messageCode) {
                     case 0x80: {
-                        var messageType = 'noteoff';
-                        return __assign({}, sharedData, { messageType: messageType, key: data1, velocity: data2 });
+                        const messageType = 'noteoff';
+                        return Object.assign({}, sharedData, { messageType: messageType, key: data1, velocity: data2 });
                     }
                     case 0x90: {
-                        var messageType = 'noteon';
-                        return __assign({}, sharedData, { messageType: messageType, key: data1, velocity: data2 });
+                        const messageType = 'noteon';
+                        return Object.assign({}, sharedData, { messageType: messageType, key: data1, velocity: data2 });
                     }
                     case 0xA0: {
-                        var messageType = 'keypressure';
-                        return __assign({}, sharedData, { messageType: messageType, key: data1, pressure: data2 });
+                        const messageType = 'keypressure';
+                        return Object.assign({}, sharedData, { messageType: messageType, key: data1, pressure: data2 });
                     }
                     case 0xB0:
                         if (data1 < 120) {
-                            var messageType = 'controlchange';
-                            return __assign({}, sharedData, { messageType: messageType, controlNumber: data1, controlFunction: getControlFunction_1.default(data1, data2), controlValue: data2 });
+                            const messageType = 'controlchange';
+                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, controlFunction: getControlFunction_1.default(data1, data2), controlValue: data2 });
                         }
                         {
-                            var messageType = 'channelmodechange';
-                            return __assign({}, sharedData, { messageType: messageType, controlNumber: data1, channelModeMessage: getControlFunction_1.default(data1, data2), controlValue: data2 });
+                            const messageType = 'channelmodechange';
+                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, channelModeMessage: getControlFunction_1.default(data1, data2), controlValue: data2 });
                         }
                     case 0xC0: {
-                        var messageType = 'programchange';
-                        return __assign({}, sharedData, { messageType: messageType, program: data1 });
+                        const messageType = 'programchange';
+                        return Object.assign({}, sharedData, { messageType: messageType, program: data1 });
                     }
                     case 0xD0: {
-                        var messageType = 'channelpressure';
-                        return __assign({}, sharedData, { messageType: messageType, pressure: data1 });
+                        const messageType = 'channelpressure';
+                        return Object.assign({}, sharedData, { messageType: messageType, pressure: data1 });
                     }
                     case 0xE0: {
-                        var messageType = 'pitchbendchange';
-                        var pitchBend = numberUtils_1.combineMsbAndLsb(data2, data1);
+                        const messageType = 'pitchbendchange';
+                        const pitchBend = numberUtils_1.combineMsbAndLsb(data2, data1);
                         /*
                             Minimum is 0
                             Neutral is 8,192
@@ -225,15 +207,15 @@ System.register("parseMidi", ["lib/getControlFunction", "lib/constants", "lib/nu
                             values depending on whether the pitch bend is up or down, as
                             up has 1 less possible value.
                         */
-                        var divider = pitchBend <= constants_2.PITCH_BEND_NEUTRAL
+                        const divider = pitchBend <= constants_2.PITCH_BEND_NEUTRAL
                             ? constants_2.PITCH_BEND_NEUTRAL
                             : (constants_2.PITCH_BEND_NEUTRAL - 1);
-                        return __assign({}, sharedData, { messageType: messageType, pitchBend: pitchBend, pitchBendMultiplier: (pitchBend - constants_2.PITCH_BEND_NEUTRAL) / divider });
+                        return Object.assign({}, sharedData, { messageType: messageType, pitchBend, pitchBendMultiplier: (pitchBend - constants_2.PITCH_BEND_NEUTRAL) / divider });
                     }
                     default: {
-                        var messageType = 'unknown';
-                        return __assign({}, sharedData, { messageType: messageType, data1: data1,
-                            data2: data2 });
+                        const messageType = 'unknown';
+                        return Object.assign({}, sharedData, { messageType: messageType, data1,
+                            data2 });
                     }
                 }
             };

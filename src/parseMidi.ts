@@ -5,7 +5,7 @@ import { combineMsbAndLsb } from './lib/numberUtils';
 /**
  * Parse data from a midimessage event.
  */
-const parseMidi = ([status, data1, data2]: number[]) => {
+const parseMidi = ([status, data1, data2]: Uint8Array | number[]) => {
 	/*
 		Status byte is, as the name suggests, 1 byte:
 		- 4 bits for the channel number (1-16)

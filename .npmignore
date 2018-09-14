@@ -1,0 +1,2 @@
+# Empty .npmignore file prevents .gitignore from intefering
+# and preventing necessary output files from being published.

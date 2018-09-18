@@ -22,7 +22,7 @@ npm install parse-midi
 import parseMidi from 'parse-midi';
 
 parseMidi([144, 60, 62]);
-// { messageType: 'noteon', key: 60, velocity: 85, channel: 1, messageCode: 144 }
+// { messageType: 'noteon', key: 60, velocity: 62, channel: 1, messageCode: 144 }
 ```
 
 ### Responding to MIDI messages in the browser

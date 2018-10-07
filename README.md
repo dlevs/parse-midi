@@ -46,7 +46,7 @@ See the [demo](https://dlevs.github.io/parse-midi/demo) for a working example.
 
 The `parseMidi` function returns an object which always has at least these properties:
 
-```JavaScript
+```javascript
 {
     messageCode: 0-240,
     channel: 1-16,
@@ -55,7 +55,7 @@ The `parseMidi` function returns an object which always has at least these prope
 
 In addition, specific properties exist for each `messageType`:
 
-```JavaScript
+```javascript
 {
     messageType: 'noteoff',
     key: 0-127,
@@ -115,7 +115,7 @@ In addition, specific properties exist for each `messageType`:
 
 With TypeScript, type safety and intellisense can be achieved by refining the type of the return object:
 
-```JavaScript
+```javascript
 const midiMessage = parseMidi([144, 60, 62]);
 
 // Bad - won't compile

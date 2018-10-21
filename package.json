@@ -1,6 +1,6 @@
 {
   "name": "parse-midi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small parser for MIDI messages.",
   "main": "dist/parseMidi.js",
   "scripts": {

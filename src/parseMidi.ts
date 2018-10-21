@@ -53,21 +53,23 @@ const parseMidi = ([status, data1, data2]: Uint8Array | number[]) => {
 		case 0xB0:
 			if (data1 < 120) {
 				const messageType = 'controlchange';
+				const controlFunction = getControlFunction(data1, data2);
 				return {
 					...sharedData,
 					messageType: messageType as typeof messageType,
 					controlNumber: data1,
-					controlFunction: getControlFunction(data1, data2),
+					controlFunction: controlFunction as typeof controlFunction,
 					controlValue: data2,
 				};
 			}
 			{
 				const messageType = 'channelmodechange';
+				const channelModeMessage = getControlFunction(data1, data2);
 				return {
 					...sharedData,
 					messageType: messageType as typeof messageType,
 					controlNumber: data1,
-					channelModeMessage: getControlFunction(data1, data2),
+					channelModeMessage: channelModeMessage as typeof channelModeMessage,
 					controlValue: data2,
 				};
 			}

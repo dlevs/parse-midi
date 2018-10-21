@@ -5,7 +5,16 @@ System.register("lib/getControlFunction", [], function (exports_1, context_1) {
     return {
         setters: [],
         execute: function () {
+            /**
+             * Return either `offValue` or `onValue` depending on the `controlValue` passed.
+             */
             onOff = (controlValue, offValue, onValue) => controlValue < 64 ? offValue : onValue;
+            /**
+             * Return either `offValue` or `onValue` depending on the `controlValue` passed.
+             *
+             * The only accepted `controlValue` values are `0` and `127` in order to match
+             * the MIDI specification for channel mode messages.
+             */
             onOffStrict = (controlValue, offValue, onValue) => {
                 if (controlValue === 0) {
                     return offValue;
@@ -15,6 +24,10 @@ System.register("lib/getControlFunction", [], function (exports_1, context_1) {
                 }
                 return null;
             };
+            /**
+             * For a given `controlNumber` and `controlValue`, get the human-readable
+             * function name, as defined in the MIDI specification.
+             */
             getControlFunction = (controlNumber, controlValue) => {
                 // A switch statement is used instead of an object mapping so that TypeScript
                 // will treat the return value as a literal, instead of a generic string.
@@ -184,11 +197,13 @@ System.register("parseMidi", ["lib/getControlFunction", "lib/constants", "lib/nu
                     case 0xB0:
                         if (data1 < 120) {
                             const messageType = 'controlchange';
-                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, controlFunction: getControlFunction_1.default(data1, data2), controlValue: data2 });
+                            const controlFunction = getControlFunction_1.default(data1, data2);
+                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, controlFunction: controlFunction, controlValue: data2 });
                         }
                         {
                             const messageType = 'channelmodechange';
-                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, channelModeMessage: getControlFunction_1.default(data1, data2), controlValue: data2 });
+                            const channelModeMessage = getControlFunction_1.default(data1, data2);
+                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, channelModeMessage: channelModeMessage, controlValue: data2 });
                         }
                     case 0xC0: {
                         const messageType = 'programchange';

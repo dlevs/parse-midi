@@ -1,3 +1,6 @@
 {
-  "extends": ["@dlevs/tslint-config"]
+  "extends": ["@dlevs/tslint-config"],
+  "rules": {
+    "no-unnecessary-type-assertion": false
+  }
 }

@@ -1,96 +1,100 @@
 System.register("lib/getControlFunction", [], function (exports_1, context_1) {
     "use strict";
-    var controlOnOrOff, controlValueMap, controlFunctions, getControlFunction;
+    var onOff, onOffStrict, getControlFunction;
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [],
         execute: function () {
-            controlOnOrOff = (paramName) => value => value < 64
-                ? `${paramName}off`
-                : `${paramName}on`;
-            controlValueMap = (paramMap) => value => paramMap[value] || null;
-            controlFunctions = {
-                // 0-31 MSB (Most Significant Byte / Coarse Value)
-                0: 'bankselect',
-                1: 'modulation',
-                2: 'breathcontroller',
-                4: 'footcontroller',
-                5: 'portamentotime',
-                6: 'dataentry',
-                7: 'volume',
-                8: 'balance',
-                10: 'pan',
-                11: 'expressioncontroller',
-                12: 'effect1',
-                13: 'effect2',
-                16: 'generalpurposecontroller1',
-                17: 'generalpurposecontroller2',
-                18: 'generalpurposecontroller3',
-                19: 'generalpurposecontroller4',
-                /*
-                    32-63 LSB (Least Significant Byte / Fine Value) correspond to their MSB equivalent.
-                    They are dynamically assigned based on values 0-31.
-                */
-                64: controlOnOrOff('sustain'),
-                65: controlOnOrOff('portamento'),
-                66: controlOnOrOff('sostenuto'),
-                67: controlOnOrOff('soft'),
-                68: controlOnOrOff('legato'),
-                69: controlOnOrOff('hold2'),
-                70: 'soundcontroller1',
-                71: 'soundcontroller2',
-                72: 'soundcontroller3',
-                73: 'soundcontroller4',
-                74: 'soundcontroller5',
-                75: 'soundcontroller6',
-                76: 'soundcontroller7',
-                77: 'soundcontroller8',
-                78: 'soundcontroller9',
-                79: 'soundcontroller10',
-                80: 'generalpurposecontroller5',
-                81: 'generalpurposecontroller6',
-                82: 'generalpurposecontroller7',
-                83: 'generalpurposecontroller8',
-                84: 'portamentocontrol',
-                91: 'effectdepth1',
-                92: 'effectdepth2',
-                93: 'effectdepth3',
-                94: 'effectdepth4',
-                95: 'effectdepth5',
-                96: 'dataincrement',
-                97: 'datadecrement',
-                98: 'nonregisteredparameternumberfine',
-                99: 'nonregisteredparameternumber',
-                100: 'registeredparameternumberfine',
-                101: 'registeredparameternumber',
-                /*
-                    Channel mode messages.
-            
-                    The use of `controlValueMap` doesn't seem 100% necessary,
-                    but it follows the MIDI spec here.
-                */
-                120: controlValueMap({ 0: 'allsoundoff' }),
-                121: controlValueMap({ 0: 'resetallcontrollers' }),
-                122: controlValueMap({ 0: 'localcontroloff', 127: 'localcontrolon' }),
-                123: controlValueMap({ 0: 'allnotesoff' }),
-                124: controlValueMap({ 0: 'omnimodeoff' }),
-                125: controlValueMap({ 0: 'omnimodeon' }),
-                126: 'monomodeon',
-                127: controlValueMap({ 0: 'polymodeon' }),
+            onOff = (controlValue, offValue, onValue) => controlValue < 64 ? offValue : onValue;
+            onOffStrict = (controlValue, offValue, onValue) => {
+                if (controlValue === 0) {
+                    return offValue;
+                }
+                if (controlValue === 127) {
+                    return onValue;
+                }
+                return null;
             };
-            for (let i = 0; i < 32; i++) {
-                const paramName = controlFunctions[i];
-                if (paramName) {
-                    controlFunctions[i + 32] = `${paramName}fine`;
-                }
-            }
             getControlFunction = (controlNumber, controlValue) => {
-                const paramName = controlFunctions[controlNumber];
-                if (typeof paramName === 'string') {
-                    return paramName;
-                }
-                if (typeof paramName === 'function') {
-                    return paramName(controlValue);
+                // A switch statement is used instead of an object mapping so that TypeScript
+                // will treat the return value as a literal, instead of a generic string.
+                switch (controlNumber) {
+                    // 0-31 MSB (Most Significant Byte / Coarse Value)
+                    case 0: return 'bankselect';
+                    case 1: return 'modulation';
+                    case 2: return 'breathcontroller';
+                    case 4: return 'footcontroller';
+                    case 5: return 'portamentotime';
+                    case 6: return 'dataentry';
+                    case 7: return 'volume';
+                    case 8: return 'balance';
+                    case 10: return 'pan';
+                    case 11: return 'expressioncontroller';
+                    case 12: return 'effect1';
+                    case 13: return 'effect2';
+                    case 16: return 'generalpurposecontroller1';
+                    case 17: return 'generalpurposecontroller2';
+                    case 18: return 'generalpurposecontroller3';
+                    case 19: return 'generalpurposecontroller4';
+                    // 32-63 LSB (Least Significant Byte / Fine Value) correspond to their MSB equivalent.
+                    // They are dynamically assigned based on values 0-31.
+                    case 32: return 'bankselectfine';
+                    case 33: return 'modulationfine';
+                    case 34: return 'breathcontrollerfine';
+                    case 36: return 'footcontrollerfine';
+                    case 37: return 'portamentotimefine';
+                    case 38: return 'dataentryfine';
+                    case 39: return 'volumefine';
+                    case 40: return 'balancefine';
+                    case 42: return 'panfine';
+                    case 43: return 'expressioncontrollerfine';
+                    case 44: return 'effect1fine';
+                    case 45: return 'effect2fine';
+                    case 48: return 'generalpurposecontroller1fine';
+                    case 49: return 'generalpurposecontroller2fine';
+                    case 50: return 'generalpurposecontroller3fine';
+                    case 51: return 'generalpurposecontroller4fine';
+                    case 64: return onOff(controlValue, 'sustainoff', 'sustainon');
+                    case 65: return onOff(controlValue, 'portamentooff', 'portamentoon');
+                    case 66: return onOff(controlValue, 'sostenutooff', 'sostenutoon');
+                    case 67: return onOff(controlValue, 'softoff', 'softon');
+                    case 68: return onOff(controlValue, 'legatooff', 'legatoon');
+                    case 69: return onOff(controlValue, 'hold2off', 'hold2on');
+                    case 70: return 'soundcontroller1';
+                    case 71: return 'soundcontroller2';
+                    case 72: return 'soundcontroller3';
+                    case 73: return 'soundcontroller4';
+                    case 74: return 'soundcontroller5';
+                    case 75: return 'soundcontroller6';
+                    case 76: return 'soundcontroller7';
+                    case 77: return 'soundcontroller8';
+                    case 78: return 'soundcontroller9';
+                    case 79: return 'soundcontroller10';
+                    case 80: return 'generalpurposecontroller5';
+                    case 81: return 'generalpurposecontroller6';
+                    case 82: return 'generalpurposecontroller7';
+                    case 83: return 'generalpurposecontroller8';
+                    case 84: return 'portamentocontrol';
+                    case 91: return 'effectdepth1';
+                    case 92: return 'effectdepth2';
+                    case 93: return 'effectdepth3';
+                    case 94: return 'effectdepth4';
+                    case 95: return 'effectdepth5';
+                    case 96: return 'dataincrement';
+                    case 97: return 'datadecrement';
+                    case 98: return 'nonregisteredparameternumberfine';
+                    case 99: return 'nonregisteredparameternumber';
+                    case 100: return 'registeredparameternumberfine';
+                    case 101: return 'registeredparameternumber';
+                    // Channel mode messages.
+                    case 120: return onOffStrict(controlValue, 'allsoundoff', null);
+                    case 121: return onOffStrict(controlValue, 'resetallcontrollers', null);
+                    case 122: return onOffStrict(controlValue, 'localcontroloff', 'localcontrolon');
+                    case 123: return onOffStrict(controlValue, 'allnotesoff', null);
+                    case 124: return onOffStrict(controlValue, 'omnimodeoff', null);
+                    case 125: return onOffStrict(controlValue, 'omnimodeon', null);
+                    case 126: return 'monomodeon';
+                    case 127: return onOffStrict(controlValue, 'polymodeon', null);
                 }
                 return null;
             };

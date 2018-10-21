@@ -20,7 +20,7 @@
     "url": "https://github.com/dlevs/parse-midi"
   },
   "devDependencies": {
-    "@dlevs/tslint-config": "1.0.3",
+    "@dlevs/tslint-config": "1.0.4",
     "@types/jest": "23.3.1",
     "jest": "23.5.0",
     "rimraf": "2.6.2",

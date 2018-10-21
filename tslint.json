@@ -1,6 +1,3 @@
 {
-  "extends": ["@dlevs/tslint-config"],
-  "rules": {
-    "switch-default": false
-  }
+  "extends": ["@dlevs/tslint-config"]
 }

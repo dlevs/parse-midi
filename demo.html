@@ -16,7 +16,7 @@
 	</style>
 </head>
 <body>
-	<p>Open the console to see the parse-midi module respond to MIDI input.</p>
+	<p>Open the console to see the parse-midi module respond to MIDI input of any connected devices, or to try the function directly via the global variable <code>window.parseMidi</code>.</p>
 	<p>Your browser must support the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess">MIDIAccess interface</a>.</p>
 	<script src="https://unpkg.com/systemjs@0.21.4/dist/system-production.js"></script>
 	<script src="./dist/demoBundle.js"></script>
@@ -48,6 +48,8 @@
 					listenAll(event.target.inputs);
 				}
 			});
+
+			console.log('The variable `parseMidi` is available to try in this console.');
 		})();
 	</script>
 </body>

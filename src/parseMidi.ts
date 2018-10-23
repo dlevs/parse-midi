@@ -1,4 +1,4 @@
-import getControlFunction from './lib/getControlFunction';
+import { getControlFunction, getChannelModeMessage } from './lib/controlChangeUtils';
 import { PITCH_BEND_NEUTRAL } from './lib/constants';
 import { combineMsbAndLsb } from './lib/numberUtils';
 
@@ -64,7 +64,7 @@ const parseMidi = ([status, data1, data2]: Uint8Array | number[]) => {
 			}
 			{
 				const messageType = 'channelmodechange';
-				const channelModeMessage = getControlFunction(data1, data2);
+				const channelModeMessage = getChannelModeMessage(data1, data2);
 				return {
 					...sharedData,
 					messageType: messageType as typeof messageType,

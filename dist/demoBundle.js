@@ -1,6 +1,6 @@
-System.register("lib/getControlFunction", [], function (exports_1, context_1) {
+System.register("lib/controlChangeUtils", [], function (exports_1, context_1) {
     "use strict";
-    var onOff, onOffStrict, getControlFunction;
+    var onOff, onOffStrict, getControlFunction, getChannelModeMessage;
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [],
@@ -28,7 +28,7 @@ System.register("lib/getControlFunction", [], function (exports_1, context_1) {
              * For a given `controlNumber` and `controlValue`, get the human-readable
              * function name, as defined in the MIDI specification.
              */
-            getControlFunction = (controlNumber, controlValue) => {
+            exports_1("getControlFunction", getControlFunction = (controlNumber, controlValue) => {
                 // A switch statement is used instead of an object mapping so that TypeScript
                 // will treat the return value as a literal, instead of a generic string.
                 switch (controlNumber) {
@@ -99,7 +99,22 @@ System.register("lib/getControlFunction", [], function (exports_1, context_1) {
                     case 99: return 'nonregisteredparameternumber';
                     case 100: return 'registeredparameternumberfine';
                     case 101: return 'registeredparameternumber';
-                    // Channel mode messages.
+                }
+                return null;
+            });
+            /**
+             * For a given `controlNumber` and `controlValue`, get the corresponding
+             * channel mode message defined in the MIDI specification.
+             *
+             * This is very similar to `getControlFunction()`, except control numbers
+             * 120 - 127 are reserved for channel mode messages instead of being regular
+             * control change messages. Keeping this logic separate from that function
+             * allows for more targeted type coverage.
+             */
+            exports_1("getChannelModeMessage", getChannelModeMessage = (controlNumber, controlValue) => {
+                // A switch statement is used instead of an object mapping so that TypeScript
+                // will treat the return value as a literal, instead of a generic string.
+                switch (controlNumber) {
                     case 120: return onOffStrict(controlValue, 'allsoundoff', null);
                     case 121: return onOffStrict(controlValue, 'resetallcontrollers', null);
                     case 122: return onOffStrict(controlValue, 'localcontroloff', 'localcontrolon');
@@ -110,8 +125,7 @@ System.register("lib/getControlFunction", [], function (exports_1, context_1) {
                     case 127: return onOffStrict(controlValue, 'polymodeon', null);
                 }
                 return null;
-            };
-            exports_1("default", getControlFunction);
+            });
         }
     };
 });
@@ -148,14 +162,14 @@ System.register("lib/numberUtils", ["lib/constants"], function (exports_3, conte
         }
     };
 });
-System.register("parseMidi", ["lib/getControlFunction", "lib/constants", "lib/numberUtils"], function (exports_4, context_4) {
+System.register("parseMidi", ["lib/controlChangeUtils", "lib/constants", "lib/numberUtils"], function (exports_4, context_4) {
     "use strict";
-    var getControlFunction_1, constants_2, numberUtils_1, parseMidi;
+    var controlChangeUtils_1, constants_2, numberUtils_1, parseMidi;
     var __moduleName = context_4 && context_4.id;
     return {
         setters: [
-            function (getControlFunction_1_1) {
-                getControlFunction_1 = getControlFunction_1_1;
+            function (controlChangeUtils_1_1) {
+                controlChangeUtils_1 = controlChangeUtils_1_1;
             },
             function (constants_2_1) {
                 constants_2 = constants_2_1;
@@ -197,12 +211,12 @@ System.register("parseMidi", ["lib/getControlFunction", "lib/constants", "lib/nu
                     case 0xB0:
                         if (data1 < 120) {
                             const messageType = 'controlchange';
-                            const controlFunction = getControlFunction_1.default(data1, data2);
+                            const controlFunction = controlChangeUtils_1.getControlFunction(data1, data2);
                             return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, controlFunction: controlFunction, controlValue: data2 });
                         }
                         {
                             const messageType = 'channelmodechange';
-                            const channelModeMessage = getControlFunction_1.default(data1, data2);
+                            const channelModeMessage = controlChangeUtils_1.getChannelModeMessage(data1, data2);
                             return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, channelModeMessage: channelModeMessage, controlValue: data2 });
                         }
                     case 0xC0: {

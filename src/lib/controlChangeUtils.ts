@@ -24,7 +24,7 @@ const onOffStrict = <T1, T2>(controlValue: number, offValue: T1, onValue: T2) =>
  * For a given `controlNumber` and `controlValue`, get the human-readable
  * function name, as defined in the MIDI specification.
  */
-const getControlFunction = (controlNumber: number, controlValue: number) => {
+export const getControlFunction = (controlNumber: number, controlValue: number) => {
 	// A switch statement is used instead of an object mapping so that TypeScript
 	// will treat the return value as a literal, instead of a generic string.
 	switch (controlNumber) {
@@ -100,8 +100,24 @@ const getControlFunction = (controlNumber: number, controlValue: number) => {
 		case 99: return 'nonregisteredparameternumber';
 		case 100: return 'registeredparameternumberfine';
 		case 101: return 'registeredparameternumber';
+	}
 
-		// Channel mode messages.
+	return null;
+};
+
+/**
+ * For a given `controlNumber` and `controlValue`, get the corresponding
+ * channel mode message defined in the MIDI specification.
+ *
+ * This is very similar to `getControlFunction()`, except control numbers
+ * 120 - 127 are reserved for channel mode messages instead of being regular
+ * control change messages. Keeping this logic separate from that function
+ * allows for more targeted type coverage.
+ */
+export const getChannelModeMessage = (controlNumber: number, controlValue: number) => {
+	// A switch statement is used instead of an object mapping so that TypeScript
+	// will treat the return value as a literal, instead of a generic string.
+	switch (controlNumber) {
 		case 120: return onOffStrict(controlValue, 'allsoundoff', null);
 		case 121: return onOffStrict(controlValue, 'resetallcontrollers', null);
 		case 122: return onOffStrict(controlValue, 'localcontroloff', 'localcontrolon');
@@ -114,5 +130,3 @@ const getControlFunction = (controlNumber: number, controlValue: number) => {
 
 	return null;
 };
-
-export default getControlFunction;

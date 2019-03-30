@@ -1,6 +1,6 @@
-import parseMidi from './parseMidi';
+import parseMidi, { MidiData } from './parseMidi';
 
-const matchSnapshot = midiData => {
+const matchSnapshot = (midiData: MidiData) => {
 	expect(parseMidi(midiData)).toMatchSnapshot(JSON.stringify(midiData));
 };
 

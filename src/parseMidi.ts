@@ -2,10 +2,12 @@ import { getControlFunction, getChannelModeMessage } from './lib/controlChangeUt
 import { PITCH_BEND_NEUTRAL } from './lib/constants';
 import { combineMsbAndLsb } from './lib/numberUtils';
 
+export type MidiData = Uint8Array | [number, number, number];
+
 /**
  * Parse data from a midimessage event.
  */
-const parseMidi = ([status, data1, data2]: Uint8Array | number[]) => {
+const parseMidi = ([status, data1, data2]: MidiData) => {
 	/*
 		Status byte is, as the name suggests, 1 byte:
 		- 4 bits for the channel number (1-16)
@@ -20,80 +22,64 @@ const parseMidi = ([status, data1, data2]: Uint8Array | number[]) => {
 	};
 
 	switch (sharedData.messageCode) {
-		case 0x80: {
-			const messageType = 'noteoff';
+		case 0x80:
 			return {
 				...sharedData,
-				messageType: messageType as typeof messageType,
+				messageType: 'noteoff',
 				key: data1,
 				velocity: data2,
-			};
-		}
+			} as const;
 
-		case 0x90: {
-			const messageType = 'noteon';
+		case 0x90:
 			return {
 				...sharedData,
-				messageType: messageType as typeof messageType,
+				messageType: 'noteon',
 				key: data1,
 				velocity: data2,
-			};
-		}
+			} as const;
 
-		case 0xA0: {
-			const messageType = 'keypressure';
+		case 0xA0:
 			return {
 				...sharedData,
-				messageType: messageType as typeof messageType,
+				messageType: 'keypressure',
 				key: data1,
 				pressure: data2,
-			};
-		}
+			} as const;
 
 		case 0xB0:
 			if (data1 < 120) {
-				const messageType = 'controlchange';
-				const controlFunction = getControlFunction(data1, data2);
 				return {
 					...sharedData,
-					messageType: messageType as typeof messageType,
+					messageType: 'controlchange',
 					controlNumber: data1,
-					controlFunction: controlFunction as typeof controlFunction,
+					controlFunction: getControlFunction(data1, data2),
 					controlValue: data2,
-				};
-			}
-			{
-				const messageType = 'channelmodechange';
-				const channelModeMessage = getChannelModeMessage(data1, data2);
-				return {
-					...sharedData,
-					messageType: messageType as typeof messageType,
-					controlNumber: data1,
-					channelModeMessage: channelModeMessage as typeof channelModeMessage,
-					controlValue: data2,
-				};
+				} as const;
 			}
 
-		case 0xC0: {
-			const messageType = 'programchange';
 			return {
 				...sharedData,
-				messageType: messageType as typeof messageType,
+				messageType: 'channelmodechange',
+				controlNumber: data1,
+				channelModeMessage: getChannelModeMessage(data1, data2),
+				controlValue: data2,
+			} as const;
+
+		case 0xC0:
+			return {
+				...sharedData,
+				messageType: 'programchange',
 				program: data1,
-			};
-		}
+			} as const;
 
-		case 0xD0: {
-			const messageType = 'channelpressure';
+		case 0xD0:
 			return {
 				...sharedData,
-				messageType: messageType as typeof messageType,
+				messageType: 'channelpressure',
 				pressure: data1,
-			};
-		}
+			} as const;
 
 		case 0xE0: {
-			const messageType = 'pitchbendchange';
 			const pitchBend = combineMsbAndLsb(data2, data1);
 			/*
 				Minimum is 0
@@ -111,21 +97,19 @@ const parseMidi = ([status, data1, data2]: Uint8Array | number[]) => {
 
 			return {
 				...sharedData,
-				messageType: messageType as typeof messageType,
+				messageType: 'pitchbendchange',
 				pitchBend,
 				pitchBendMultiplier: (pitchBend - PITCH_BEND_NEUTRAL) / divider,
-			};
+			} as const;
 		}
 
-		default: {
-			const messageType = 'unknown';
+		default:
 			return {
 				...sharedData,
-				messageType: messageType as typeof messageType,
+				messageType: 'unknown',
 				data1,
 				data2,
-			};
-		}
+			} as const;
 	}
 };
 

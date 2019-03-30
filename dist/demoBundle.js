@@ -1,103 +1,104 @@
 System.register("lib/controlChangeUtils", [], function (exports_1, context_1) {
     "use strict";
-    var controlFunctionMap, channelModeMessageMap, getControlFunction, getChannelModeMessage;
+    var onOff, onOffStrict, getControlFunction, getChannelModeMessage;
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [],
         execute: function () {
-            controlFunctionMap = {
-                // 0-31 MSB (Most Significant Byte / Coarse Value)
-                0: 'bankselect',
-                1: 'modulation',
-                2: 'breathcontroller',
-                4: 'footcontroller',
-                5: 'portamentotime',
-                6: 'dataentry',
-                7: 'volume',
-                8: 'balance',
-                10: 'pan',
-                11: 'expressioncontroller',
-                12: 'effect1',
-                13: 'effect2',
-                16: 'generalpurposecontroller1',
-                17: 'generalpurposecontroller2',
-                18: 'generalpurposecontroller3',
-                19: 'generalpurposecontroller4',
-                // 32-63 LSB (Least Significant Byte / Fine Value) correspond to their MSB equivalent.
-                // They are dynamically assigned based on values 0-31.
-                32: 'bankselectfine',
-                33: 'modulationfine',
-                34: 'breathcontrollerfine',
-                36: 'footcontrollerfine',
-                37: 'portamentotimefine',
-                38: 'dataentryfine',
-                39: 'volumefine',
-                40: 'balancefine',
-                42: 'panfine',
-                43: 'expressioncontrollerfine',
-                44: 'effect1fine',
-                45: 'effect2fine',
-                48: 'generalpurposecontroller1fine',
-                49: 'generalpurposecontroller2fine',
-                50: 'generalpurposecontroller3fine',
-                51: 'generalpurposecontroller4fine',
-                64: ['sustainoff', 'sustainon'],
-                65: ['portamentooff', 'portamentoon'],
-                66: ['sostenutooff', 'sostenutoon'],
-                67: ['softoff', 'softon'],
-                68: ['legatooff', 'legatoon'],
-                69: ['hold2off', 'hold2on'],
-                70: 'soundcontroller1',
-                71: 'soundcontroller2',
-                72: 'soundcontroller3',
-                73: 'soundcontroller4',
-                74: 'soundcontroller5',
-                75: 'soundcontroller6',
-                76: 'soundcontroller7',
-                77: 'soundcontroller8',
-                78: 'soundcontroller9',
-                79: 'soundcontroller10',
-                80: 'generalpurposecontroller5',
-                81: 'generalpurposecontroller6',
-                82: 'generalpurposecontroller7',
-                83: 'generalpurposecontroller8',
-                84: 'portamentocontrol',
-                91: 'effectdepth1',
-                92: 'effectdepth2',
-                93: 'effectdepth3',
-                94: 'effectdepth4',
-                95: 'effectdepth5',
-                96: 'dataincrement',
-                97: 'datadecrement',
-                98: 'nonregisteredparameternumberfine',
-                99: 'nonregisteredparameternumber',
-                100: 'registeredparameternumberfine',
-                101: 'registeredparameternumber',
-            };
-            channelModeMessageMap = {
-                // Channel mode messages
-                120: ['allsoundoff', null],
-                121: ['resetallcontrollers', null],
-                122: ['localcontroloff', 'localcontrolon'],
-                123: ['allnotesoff', null],
-                124: ['omnimodeoff', null],
-                125: ['omnimodeon', null],
-                126: 'monomodeon',
-                127: ['polymodeon', null],
+            /**
+             * Return either `offValue` or `onValue` depending on the `controlValue` passed.
+             */
+            onOff = (controlValue, offValue, onValue) => controlValue < 64 ? offValue : onValue;
+            /**
+             * Return either `offValue` or `onValue` depending on the `controlValue` passed.
+             *
+             * The only accepted `controlValue` values are `0` and `127` in order to match
+             * the MIDI specification for channel mode messages.
+             */
+            onOffStrict = (controlValue, offValue, onValue) => {
+                if (controlValue === 0) {
+                    return offValue;
+                }
+                if (controlValue === 127) {
+                    return onValue;
+                }
+                return null;
             };
             /**
              * For a given `controlNumber` and `controlValue`, get the human-readable
              * function name, as defined in the MIDI specification.
              */
             exports_1("getControlFunction", getControlFunction = (controlNumber, controlValue) => {
-                const value = controlFunctionMap[controlNumber];
-                if (typeof value === 'string') {
-                    return value;
-                }
-                // Arrays indicate multiple possible return values, depending on the `controlValue`.
-                if (value instanceof Array) {
-                    const [offValue, onValue] = value;
-                    return controlValue < 64 ? offValue : onValue;
+                // A switch statement is used instead of an object mapping so that TypeScript
+                // will treat the return value as a literal, instead of a generic string.
+                switch (controlNumber) {
+                    // 0-31 MSB (Most Significant Byte / Coarse Value)
+                    case 0: return 'bankselect';
+                    case 1: return 'modulation';
+                    case 2: return 'breathcontroller';
+                    case 4: return 'footcontroller';
+                    case 5: return 'portamentotime';
+                    case 6: return 'dataentry';
+                    case 7: return 'volume';
+                    case 8: return 'balance';
+                    case 10: return 'pan';
+                    case 11: return 'expressioncontroller';
+                    case 12: return 'effect1';
+                    case 13: return 'effect2';
+                    case 16: return 'generalpurposecontroller1';
+                    case 17: return 'generalpurposecontroller2';
+                    case 18: return 'generalpurposecontroller3';
+                    case 19: return 'generalpurposecontroller4';
+                    // 32-63 LSB (Least Significant Byte / Fine Value) correspond to their MSB equivalent.
+                    // They are dynamically assigned based on values 0-31.
+                    case 32: return 'bankselectfine';
+                    case 33: return 'modulationfine';
+                    case 34: return 'breathcontrollerfine';
+                    case 36: return 'footcontrollerfine';
+                    case 37: return 'portamentotimefine';
+                    case 38: return 'dataentryfine';
+                    case 39: return 'volumefine';
+                    case 40: return 'balancefine';
+                    case 42: return 'panfine';
+                    case 43: return 'expressioncontrollerfine';
+                    case 44: return 'effect1fine';
+                    case 45: return 'effect2fine';
+                    case 48: return 'generalpurposecontroller1fine';
+                    case 49: return 'generalpurposecontroller2fine';
+                    case 50: return 'generalpurposecontroller3fine';
+                    case 51: return 'generalpurposecontroller4fine';
+                    case 64: return onOff(controlValue, 'sustainoff', 'sustainon');
+                    case 65: return onOff(controlValue, 'portamentooff', 'portamentoon');
+                    case 66: return onOff(controlValue, 'sostenutooff', 'sostenutoon');
+                    case 67: return onOff(controlValue, 'softoff', 'softon');
+                    case 68: return onOff(controlValue, 'legatooff', 'legatoon');
+                    case 69: return onOff(controlValue, 'hold2off', 'hold2on');
+                    case 70: return 'soundcontroller1';
+                    case 71: return 'soundcontroller2';
+                    case 72: return 'soundcontroller3';
+                    case 73: return 'soundcontroller4';
+                    case 74: return 'soundcontroller5';
+                    case 75: return 'soundcontroller6';
+                    case 76: return 'soundcontroller7';
+                    case 77: return 'soundcontroller8';
+                    case 78: return 'soundcontroller9';
+                    case 79: return 'soundcontroller10';
+                    case 80: return 'generalpurposecontroller5';
+                    case 81: return 'generalpurposecontroller6';
+                    case 82: return 'generalpurposecontroller7';
+                    case 83: return 'generalpurposecontroller8';
+                    case 84: return 'portamentocontrol';
+                    case 91: return 'effectdepth1';
+                    case 92: return 'effectdepth2';
+                    case 93: return 'effectdepth3';
+                    case 94: return 'effectdepth4';
+                    case 95: return 'effectdepth5';
+                    case 96: return 'dataincrement';
+                    case 97: return 'datadecrement';
+                    case 98: return 'nonregisteredparameternumberfine';
+                    case 99: return 'nonregisteredparameternumber';
+                    case 100: return 'registeredparameternumberfine';
+                    case 101: return 'registeredparameternumber';
                 }
                 return null;
             });
@@ -111,20 +112,17 @@ System.register("lib/controlChangeUtils", [], function (exports_1, context_1) {
              * allows for more targeted type coverage.
              */
             exports_1("getChannelModeMessage", getChannelModeMessage = (controlNumber, controlValue) => {
-                const value = channelModeMessageMap[controlNumber];
-                if (typeof value === 'string') {
-                    return value;
-                }
-                // For channel mode messages, the only accepted `controlValue` values are `0`
-                // and `127` according to the MIDI specification.
-                if (value instanceof Array) {
-                    const [offValue, onValue] = value;
-                    if (controlValue === 0) {
-                        return offValue;
-                    }
-                    if (controlValue === 127) {
-                        return onValue;
-                    }
+                // A switch statement is used instead of an object mapping so that TypeScript
+                // will treat the return value as a literal, instead of a generic string.
+                switch (controlNumber) {
+                    case 120: return onOffStrict(controlValue, 'allsoundoff', null);
+                    case 121: return onOffStrict(controlValue, 'resetallcontrollers', null);
+                    case 122: return onOffStrict(controlValue, 'localcontroloff', 'localcontrolon');
+                    case 123: return onOffStrict(controlValue, 'allnotesoff', null);
+                    case 124: return onOffStrict(controlValue, 'omnimodeoff', null);
+                    case 125: return onOffStrict(controlValue, 'omnimodeon', null);
+                    case 126: return 'monomodeon';
+                    case 127: return onOffStrict(controlValue, 'polymodeon', null);
                 }
                 return null;
             });
@@ -198,39 +196,22 @@ System.register("parseMidi", ["lib/controlChangeUtils", "lib/constants", "lib/nu
                     channel: (status & 0x0F) + 1,
                 };
                 switch (sharedData.messageCode) {
-                    case 0x80: {
-                        const messageType = 'noteoff';
-                        return Object.assign({}, sharedData, { messageType: messageType, key: data1, velocity: data2 });
-                    }
-                    case 0x90: {
-                        const messageType = 'noteon';
-                        return Object.assign({}, sharedData, { messageType: messageType, key: data1, velocity: data2 });
-                    }
-                    case 0xA0: {
-                        const messageType = 'keypressure';
-                        return Object.assign({}, sharedData, { messageType: messageType, key: data1, pressure: data2 });
-                    }
+                    case 0x80:
+                        return Object.assign({}, sharedData, { messageType: 'noteoff', key: data1, velocity: data2 });
+                    case 0x90:
+                        return Object.assign({}, sharedData, { messageType: 'noteon', key: data1, velocity: data2 });
+                    case 0xA0:
+                        return Object.assign({}, sharedData, { messageType: 'keypressure', key: data1, pressure: data2 });
                     case 0xB0:
                         if (data1 < 120) {
-                            const messageType = 'controlchange';
-                            const controlFunction = controlChangeUtils_1.getControlFunction(data1, data2);
-                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, controlFunction: controlFunction, controlValue: data2 });
+                            return Object.assign({}, sharedData, { messageType: 'controlchange', controlNumber: data1, controlFunction: controlChangeUtils_1.getControlFunction(data1, data2), controlValue: data2 });
                         }
-                        {
-                            const messageType = 'channelmodechange';
-                            const channelModeMessage = controlChangeUtils_1.getChannelModeMessage(data1, data2);
-                            return Object.assign({}, sharedData, { messageType: messageType, controlNumber: data1, channelModeMessage: channelModeMessage, controlValue: data2 });
-                        }
-                    case 0xC0: {
-                        const messageType = 'programchange';
-                        return Object.assign({}, sharedData, { messageType: messageType, program: data1 });
-                    }
-                    case 0xD0: {
-                        const messageType = 'channelpressure';
-                        return Object.assign({}, sharedData, { messageType: messageType, pressure: data1 });
-                    }
+                        return Object.assign({}, sharedData, { messageType: 'channelmodechange', controlNumber: data1, channelModeMessage: controlChangeUtils_1.getChannelModeMessage(data1, data2), controlValue: data2 });
+                    case 0xC0:
+                        return Object.assign({}, sharedData, { messageType: 'programchange', program: data1 });
+                    case 0xD0:
+                        return Object.assign({}, sharedData, { messageType: 'channelpressure', pressure: data1 });
                     case 0xE0: {
-                        const messageType = 'pitchbendchange';
                         const pitchBend = numberUtils_1.combineMsbAndLsb(data2, data1);
                         /*
                             Minimum is 0
@@ -245,13 +226,11 @@ System.register("parseMidi", ["lib/controlChangeUtils", "lib/constants", "lib/nu
                         const divider = pitchBend <= constants_2.PITCH_BEND_NEUTRAL
                             ? constants_2.PITCH_BEND_NEUTRAL
                             : (constants_2.PITCH_BEND_NEUTRAL - 1);
-                        return Object.assign({}, sharedData, { messageType: messageType, pitchBend, pitchBendMultiplier: (pitchBend - constants_2.PITCH_BEND_NEUTRAL) / divider });
+                        return Object.assign({}, sharedData, { messageType: 'pitchbendchange', pitchBend, pitchBendMultiplier: (pitchBend - constants_2.PITCH_BEND_NEUTRAL) / divider });
                     }
-                    default: {
-                        const messageType = 'unknown';
-                        return Object.assign({}, sharedData, { messageType: messageType, data1,
+                    default:
+                        return Object.assign({}, sharedData, { messageType: 'unknown', data1,
                             data2 });
-                    }
                 }
             };
             exports_4("default", parseMidi);

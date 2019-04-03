@@ -47,9 +47,28 @@ describe('parseMidi()', () => {
 		});
 	});
 
+	test('"noteon" messages with a velocity of 0 are treated as "noteoff', () => {
+		expect(parseMidi([144, 60, 0])).toMatchObject({
+			channel: 1,
+			key: 60,
+			messageCode: 144,
+			messageType: 'noteoff',
+			velocity: 0,
+		});
+
+		expect(parseMidi([144, 60, 127])).toMatchObject({
+			channel: 1,
+			key: 60,
+			messageCode: 144,
+			messageType: 'noteon',
+			velocity: 127,
+		});
+	});
+
 	test('snapshots match for all variations of status byte', () => {
 		for (let i = 0; i < 256; i++) {
-			matchSnapshot([i, 60, 110]);
+			matchSnapshot([i, 60, 0]);
+			matchSnapshot([i, 60, 127]);
 		}
 	});
 

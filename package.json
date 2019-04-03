@@ -5,8 +5,8 @@
   "main": "dist/parseMidi.js",
   "scripts": {
     "start": "npm run clean && npm run build:demo -- -w",
-    "build": "npm run clean && npm run build:es6 && npm run build:demo",
-    "build:es6": "tsc",
+    "build": "npm run clean && npm run build:code && npm run build:demo",
+    "build:code": "tsc",
     "build:demo": "tsc --module system --outFile dist/demoBundle.js",
     "clean": "rimraf dist",
     "lint": "tslint --format stylish --project .",

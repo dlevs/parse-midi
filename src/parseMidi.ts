@@ -33,7 +33,7 @@ const parseMidi = ([status, data1, data2]: MidiData) => {
 		case 0x90:
 			return {
 				...sharedData,
-				messageType: 'noteon',
+				messageType: data2 === 0 ? 'noteoff' : 'noteon',
 				key: data1,
 				velocity: data2,
 			} as const;

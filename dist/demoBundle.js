@@ -199,7 +199,7 @@ System.register("parseMidi", ["lib/controlChangeUtils", "lib/constants", "lib/nu
                     case 0x80:
                         return Object.assign({}, sharedData, { messageType: 'noteoff', key: data1, velocity: data2 });
                     case 0x90:
-                        return Object.assign({}, sharedData, { messageType: 'noteon', key: data1, velocity: data2 });
+                        return Object.assign({}, sharedData, { messageType: data2 === 0 ? 'noteoff' : 'noteon', key: data1, velocity: data2 });
                     case 0xA0:
                         return Object.assign({}, sharedData, { messageType: 'keypressure', key: data1, pressure: data2 });
                     case 0xB0:

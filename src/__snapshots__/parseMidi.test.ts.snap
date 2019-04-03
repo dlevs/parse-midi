@@ -2816,1943 +2816,3879 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [0,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [0,60,0] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [1,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [0,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [1,60,0] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [2,60,110] 1`] = `
-Object {
-  "channel": 3,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [3,60,110] 1`] = `
-Object {
-  "channel": 4,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [4,60,110] 1`] = `
-Object {
-  "channel": 5,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [5,60,110] 1`] = `
-Object {
-  "channel": 6,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [6,60,110] 1`] = `
-Object {
-  "channel": 7,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [7,60,110] 1`] = `
-Object {
-  "channel": 8,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [8,60,110] 1`] = `
-Object {
-  "channel": 9,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [9,60,110] 1`] = `
-Object {
-  "channel": 10,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [10,60,110] 1`] = `
-Object {
-  "channel": 11,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [11,60,110] 1`] = `
-Object {
-  "channel": 12,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [12,60,110] 1`] = `
-Object {
-  "channel": 13,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [13,60,110] 1`] = `
-Object {
-  "channel": 14,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [14,60,110] 1`] = `
-Object {
-  "channel": 15,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [15,60,110] 1`] = `
-Object {
-  "channel": 16,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 0,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [16,60,110] 1`] = `
-Object {
-  "channel": 1,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [17,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [1,60,127] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 127,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [18,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [2,60,0] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [19,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [2,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [3,60,0] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [20,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [3,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [4,60,0] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [21,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [4,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [5,60,0] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [22,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [5,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [6,60,0] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [23,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [6,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [7,60,0] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [24,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [7,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [8,60,0] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [25,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [8,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [9,60,0] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [26,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [9,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [10,60,0] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [27,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [10,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [11,60,0] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [28,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [11,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [12,60,0] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [29,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [12,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [13,60,0] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [30,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [13,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [14,60,0] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 16,
+  "data2": 0,
+  "messageCode": 0,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [31,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [14,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [15,60,0] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [15,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 0,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [16,60,0] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 0,
   "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [32,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [16,60,127] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
+  "data2": 127,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [33,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [17,60,0] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [34,60,110] 1`] = `
-Object {
-  "channel": 3,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [35,60,110] 1`] = `
-Object {
-  "channel": 4,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [36,60,110] 1`] = `
-Object {
-  "channel": 5,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [37,60,110] 1`] = `
-Object {
-  "channel": 6,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [38,60,110] 1`] = `
-Object {
-  "channel": 7,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [39,60,110] 1`] = `
-Object {
-  "channel": 8,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [40,60,110] 1`] = `
-Object {
-  "channel": 9,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [41,60,110] 1`] = `
-Object {
-  "channel": 10,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [42,60,110] 1`] = `
-Object {
-  "channel": 11,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [43,60,110] 1`] = `
-Object {
-  "channel": 12,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [44,60,110] 1`] = `
-Object {
-  "channel": 13,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [45,60,110] 1`] = `
-Object {
-  "channel": 14,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [46,60,110] 1`] = `
-Object {
-  "channel": 15,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [47,60,110] 1`] = `
-Object {
-  "channel": 16,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 32,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [48,60,110] 1`] = `
-Object {
-  "channel": 1,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [49,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [17,60,127] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 127,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [50,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [18,60,0] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [51,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [18,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [19,60,0] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [52,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [19,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [20,60,0] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [53,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [20,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [21,60,0] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [54,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [21,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [22,60,0] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [55,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [22,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [23,60,0] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [56,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [23,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [24,60,0] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [57,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [24,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [25,60,0] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [58,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [25,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [26,60,0] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [59,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [26,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [27,60,0] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [60,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [27,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [28,60,0] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [61,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [28,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [29,60,0] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [62,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [29,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [30,60,0] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [63,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [30,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [31,60,0] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 48,
+  "data2": 0,
+  "messageCode": 16,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [64,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [31,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 16,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [32,60,0] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [65,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [32,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [33,60,0] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [66,60,110] 1`] = `
-Object {
-  "channel": 3,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [67,60,110] 1`] = `
-Object {
-  "channel": 4,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [68,60,110] 1`] = `
-Object {
-  "channel": 5,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [69,60,110] 1`] = `
-Object {
-  "channel": 6,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [70,60,110] 1`] = `
-Object {
-  "channel": 7,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [71,60,110] 1`] = `
-Object {
-  "channel": 8,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [72,60,110] 1`] = `
-Object {
-  "channel": 9,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [73,60,110] 1`] = `
-Object {
-  "channel": 10,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [74,60,110] 1`] = `
-Object {
-  "channel": 11,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [75,60,110] 1`] = `
-Object {
-  "channel": 12,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [76,60,110] 1`] = `
-Object {
-  "channel": 13,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [77,60,110] 1`] = `
-Object {
-  "channel": 14,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [78,60,110] 1`] = `
-Object {
-  "channel": 15,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [79,60,110] 1`] = `
-Object {
-  "channel": 16,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 64,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [80,60,110] 1`] = `
-Object {
-  "channel": 1,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [81,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [33,60,127] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 127,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [82,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [34,60,0] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [83,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [34,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [35,60,0] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [84,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [35,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [36,60,0] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [85,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [36,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [37,60,0] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [86,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [37,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [38,60,0] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [87,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [38,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [39,60,0] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [88,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [39,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [40,60,0] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [89,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [40,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [41,60,0] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [90,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [41,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [42,60,0] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [91,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [42,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [43,60,0] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [92,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [43,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [44,60,0] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [93,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [44,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [45,60,0] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [94,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [45,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [46,60,0] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [95,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [46,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [47,60,0] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 80,
+  "data2": 0,
+  "messageCode": 32,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [96,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [47,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 32,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [48,60,0] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [97,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [48,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [49,60,0] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [98,60,110] 1`] = `
-Object {
-  "channel": 3,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [99,60,110] 1`] = `
-Object {
-  "channel": 4,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [100,60,110] 1`] = `
-Object {
-  "channel": 5,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [101,60,110] 1`] = `
-Object {
-  "channel": 6,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [102,60,110] 1`] = `
-Object {
-  "channel": 7,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [103,60,110] 1`] = `
-Object {
-  "channel": 8,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [104,60,110] 1`] = `
-Object {
-  "channel": 9,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [105,60,110] 1`] = `
-Object {
-  "channel": 10,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [106,60,110] 1`] = `
-Object {
-  "channel": 11,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [107,60,110] 1`] = `
-Object {
-  "channel": 12,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [108,60,110] 1`] = `
-Object {
-  "channel": 13,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [109,60,110] 1`] = `
-Object {
-  "channel": 14,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [110,60,110] 1`] = `
-Object {
-  "channel": 15,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [111,60,110] 1`] = `
-Object {
-  "channel": 16,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 96,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [112,60,110] 1`] = `
-Object {
-  "channel": 1,
-  "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
-  "messageType": "unknown",
-}
-`;
-
-exports[`parseMidi() snapshots match for all variations of status byte: [113,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [49,60,127] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 127,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [114,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [50,60,0] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [115,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [50,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [51,60,0] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [116,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [51,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [52,60,0] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [117,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [52,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [53,60,0] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [118,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [53,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [54,60,0] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [119,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [54,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [55,60,0] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [120,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [55,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [56,60,0] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [121,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [56,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [57,60,0] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [122,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [57,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [58,60,0] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [123,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [58,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [59,60,0] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [124,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [59,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [60,60,0] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [125,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [60,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [61,60,0] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [126,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [61,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [62,60,0] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
-  "data2": 110,
-  "messageCode": 112,
+  "data2": 0,
+  "messageCode": 48,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [127,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [62,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [63,60,0] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [63,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 48,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [64,60,0] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [64,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [65,60,0] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [65,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [66,60,0] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [66,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [67,60,0] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [67,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [68,60,0] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [68,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [69,60,0] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [69,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [70,60,0] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [70,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [71,60,0] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [71,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [72,60,0] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [72,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [73,60,0] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [73,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [74,60,0] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [74,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [75,60,0] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [75,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [76,60,0] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [76,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [77,60,0] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [77,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [78,60,0] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [78,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [79,60,0] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [79,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 64,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [80,60,0] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [80,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [81,60,0] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [81,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [82,60,0] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [82,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [83,60,0] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [83,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [84,60,0] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [84,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [85,60,0] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [85,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [86,60,0] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [86,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [87,60,0] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [87,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [88,60,0] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [88,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [89,60,0] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [89,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [90,60,0] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [90,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [91,60,0] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [91,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [92,60,0] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [92,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [93,60,0] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [93,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [94,60,0] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [94,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [95,60,0] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [95,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 80,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [96,60,0] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [96,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [97,60,0] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [97,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [98,60,0] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [98,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [99,60,0] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [99,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [100,60,0] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [100,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [101,60,0] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [101,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [102,60,0] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [102,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [103,60,0] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [103,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [104,60,0] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [104,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [105,60,0] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [105,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [106,60,0] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [106,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [107,60,0] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [107,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [108,60,0] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [108,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [109,60,0] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [109,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [110,60,0] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [110,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [111,60,0] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [111,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 96,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [112,60,0] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 0,
   "messageCode": 112,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [128,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [112,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [113,60,0] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [113,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [114,60,0] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [114,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [115,60,0] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [115,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [116,60,0] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [116,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [117,60,0] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [117,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [118,60,0] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [118,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [119,60,0] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [119,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [120,60,0] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [120,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [121,60,0] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [121,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [122,60,0] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [122,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [123,60,0] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [123,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [124,60,0] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [124,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [125,60,0] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [125,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [126,60,0] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [126,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [127,60,0] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 0,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [127,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 112,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [128,60,0] 1`] = `
 Object {
   "channel": 1,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [129,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [128,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [129,60,0] 1`] = `
 Object {
   "channel": 2,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [130,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [129,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [130,60,0] 1`] = `
 Object {
   "channel": 3,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [131,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [130,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [131,60,0] 1`] = `
 Object {
   "channel": 4,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [132,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [131,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [132,60,0] 1`] = `
 Object {
   "channel": 5,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [133,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [132,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [133,60,0] 1`] = `
 Object {
   "channel": 6,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [134,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [133,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [134,60,0] 1`] = `
 Object {
   "channel": 7,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [135,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [134,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [135,60,0] 1`] = `
 Object {
   "channel": 8,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [136,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [135,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [136,60,0] 1`] = `
 Object {
   "channel": 9,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [137,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [136,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [137,60,0] 1`] = `
 Object {
   "channel": 10,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [138,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [137,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [138,60,0] 1`] = `
 Object {
   "channel": 11,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [139,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [138,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [139,60,0] 1`] = `
 Object {
   "channel": 12,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [140,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [139,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [140,60,0] 1`] = `
 Object {
   "channel": 13,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [141,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [140,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [141,60,0] 1`] = `
 Object {
   "channel": 14,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [142,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [141,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [142,60,0] 1`] = `
 Object {
   "channel": 15,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [143,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [142,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [143,60,0] 1`] = `
 Object {
   "channel": 16,
   "key": 60,
   "messageCode": 128,
   "messageType": "noteoff",
-  "velocity": 110,
+  "velocity": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [144,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [143,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "key": 60,
+  "messageCode": 128,
+  "messageType": "noteoff",
+  "velocity": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [144,60,0] 1`] = `
+Object {
+  "channel": 1,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [144,60,127] 1`] = `
 Object {
   "channel": 1,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [145,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [145,60,0] 1`] = `
+Object {
+  "channel": 2,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [145,60,127] 1`] = `
 Object {
   "channel": 2,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [146,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [146,60,0] 1`] = `
+Object {
+  "channel": 3,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [146,60,127] 1`] = `
 Object {
   "channel": 3,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [147,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [147,60,0] 1`] = `
+Object {
+  "channel": 4,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [147,60,127] 1`] = `
 Object {
   "channel": 4,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [148,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [148,60,0] 1`] = `
+Object {
+  "channel": 5,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [148,60,127] 1`] = `
 Object {
   "channel": 5,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [149,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [149,60,0] 1`] = `
+Object {
+  "channel": 6,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [149,60,127] 1`] = `
 Object {
   "channel": 6,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [150,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [150,60,0] 1`] = `
+Object {
+  "channel": 7,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [150,60,127] 1`] = `
 Object {
   "channel": 7,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [151,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [151,60,0] 1`] = `
+Object {
+  "channel": 8,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [151,60,127] 1`] = `
 Object {
   "channel": 8,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [152,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [152,60,0] 1`] = `
+Object {
+  "channel": 9,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [152,60,127] 1`] = `
 Object {
   "channel": 9,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [153,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [153,60,0] 1`] = `
+Object {
+  "channel": 10,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [153,60,127] 1`] = `
 Object {
   "channel": 10,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [154,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [154,60,0] 1`] = `
+Object {
+  "channel": 11,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [154,60,127] 1`] = `
 Object {
   "channel": 11,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [155,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [155,60,0] 1`] = `
+Object {
+  "channel": 12,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [155,60,127] 1`] = `
 Object {
   "channel": 12,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [156,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [156,60,0] 1`] = `
+Object {
+  "channel": 13,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [156,60,127] 1`] = `
 Object {
   "channel": 13,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [157,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [157,60,0] 1`] = `
+Object {
+  "channel": 14,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [157,60,127] 1`] = `
 Object {
   "channel": 14,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [158,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [158,60,0] 1`] = `
+Object {
+  "channel": 15,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [158,60,127] 1`] = `
 Object {
   "channel": 15,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [159,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [159,60,0] 1`] = `
+Object {
+  "channel": 16,
+  "key": 60,
+  "messageCode": 144,
+  "messageType": "noteoff",
+  "velocity": 0,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [159,60,127] 1`] = `
 Object {
   "channel": 16,
   "key": 60,
   "messageCode": 144,
   "messageType": "noteon",
-  "velocity": 110,
+  "velocity": 127,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [160,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [160,60,0] 1`] = `
 Object {
   "channel": 1,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [161,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [160,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [161,60,0] 1`] = `
 Object {
   "channel": 2,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [162,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [161,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [162,60,0] 1`] = `
 Object {
   "channel": 3,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [163,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [162,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [163,60,0] 1`] = `
 Object {
   "channel": 4,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [164,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [163,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [164,60,0] 1`] = `
 Object {
   "channel": 5,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [165,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [164,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [165,60,0] 1`] = `
 Object {
   "channel": 6,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [166,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [165,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [166,60,0] 1`] = `
 Object {
   "channel": 7,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [167,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [166,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [167,60,0] 1`] = `
 Object {
   "channel": 8,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [168,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [167,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [168,60,0] 1`] = `
 Object {
   "channel": 9,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [169,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [168,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [169,60,0] 1`] = `
 Object {
   "channel": 10,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [170,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [169,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [170,60,0] 1`] = `
 Object {
   "channel": 11,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [171,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [170,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [171,60,0] 1`] = `
 Object {
   "channel": 12,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [172,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [171,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [172,60,0] 1`] = `
 Object {
   "channel": 13,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [173,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [172,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [173,60,0] 1`] = `
 Object {
   "channel": 14,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [174,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [173,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [174,60,0] 1`] = `
 Object {
   "channel": 15,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [175,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [174,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [175,60,0] 1`] = `
 Object {
   "channel": 16,
   "key": 60,
   "messageCode": 160,
   "messageType": "keypressure",
-  "pressure": 110,
+  "pressure": 0,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [176,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [175,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "key": 60,
+  "messageCode": 160,
+  "messageType": "keypressure",
+  "pressure": 127,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [176,60,0] 1`] = `
 Object {
   "channel": 1,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [177,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [176,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [177,60,0] 1`] = `
 Object {
   "channel": 2,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [178,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [177,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [178,60,0] 1`] = `
 Object {
   "channel": 3,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [179,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [178,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [179,60,0] 1`] = `
 Object {
   "channel": 4,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [180,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [179,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [180,60,0] 1`] = `
 Object {
   "channel": 5,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [181,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [180,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [181,60,0] 1`] = `
 Object {
   "channel": 6,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [182,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [181,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [182,60,0] 1`] = `
 Object {
   "channel": 7,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [183,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [182,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [183,60,0] 1`] = `
 Object {
   "channel": 8,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [184,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [183,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [184,60,0] 1`] = `
 Object {
   "channel": 9,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [185,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [184,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [185,60,0] 1`] = `
 Object {
   "channel": 10,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [186,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [185,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [186,60,0] 1`] = `
 Object {
   "channel": 11,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [187,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [186,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [187,60,0] 1`] = `
 Object {
   "channel": 12,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [188,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [187,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [188,60,0] 1`] = `
 Object {
   "channel": 13,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [189,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [188,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [189,60,0] 1`] = `
 Object {
   "channel": 14,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [190,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [189,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [190,60,0] 1`] = `
 Object {
   "channel": 15,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [191,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [190,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [191,60,0] 1`] = `
 Object {
   "channel": 16,
   "controlFunction": null,
   "controlNumber": 60,
-  "controlValue": 110,
+  "controlValue": 0,
   "messageCode": 176,
   "messageType": "controlchange",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [192,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [191,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "controlFunction": null,
+  "controlNumber": 60,
+  "controlValue": 127,
+  "messageCode": 176,
+  "messageType": "controlchange",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [192,60,0] 1`] = `
 Object {
   "channel": 1,
   "messageCode": 192,
@@ -4761,7 +6697,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [193,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [192,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [193,60,0] 1`] = `
 Object {
   "channel": 2,
   "messageCode": 192,
@@ -4770,7 +6715,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [194,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [193,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [194,60,0] 1`] = `
 Object {
   "channel": 3,
   "messageCode": 192,
@@ -4779,7 +6733,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [195,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [194,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [195,60,0] 1`] = `
 Object {
   "channel": 4,
   "messageCode": 192,
@@ -4788,7 +6751,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [196,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [195,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [196,60,0] 1`] = `
 Object {
   "channel": 5,
   "messageCode": 192,
@@ -4797,7 +6769,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [197,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [196,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [197,60,0] 1`] = `
 Object {
   "channel": 6,
   "messageCode": 192,
@@ -4806,7 +6787,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [198,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [197,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [198,60,0] 1`] = `
 Object {
   "channel": 7,
   "messageCode": 192,
@@ -4815,7 +6805,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [199,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [198,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [199,60,0] 1`] = `
 Object {
   "channel": 8,
   "messageCode": 192,
@@ -4824,7 +6823,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [200,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [199,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [200,60,0] 1`] = `
 Object {
   "channel": 9,
   "messageCode": 192,
@@ -4833,7 +6841,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [201,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [200,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [201,60,0] 1`] = `
 Object {
   "channel": 10,
   "messageCode": 192,
@@ -4842,7 +6859,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [202,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [201,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [202,60,0] 1`] = `
 Object {
   "channel": 11,
   "messageCode": 192,
@@ -4851,7 +6877,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [203,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [202,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [203,60,0] 1`] = `
 Object {
   "channel": 12,
   "messageCode": 192,
@@ -4860,7 +6895,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [204,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [203,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [204,60,0] 1`] = `
 Object {
   "channel": 13,
   "messageCode": 192,
@@ -4869,7 +6913,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [205,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [204,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [205,60,0] 1`] = `
 Object {
   "channel": 14,
   "messageCode": 192,
@@ -4878,7 +6931,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [206,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [205,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [206,60,0] 1`] = `
 Object {
   "channel": 15,
   "messageCode": 192,
@@ -4887,7 +6949,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [207,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [206,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [207,60,0] 1`] = `
 Object {
   "channel": 16,
   "messageCode": 192,
@@ -4896,7 +6967,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [208,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [207,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "messageCode": 192,
+  "messageType": "programchange",
+  "program": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [208,60,0] 1`] = `
 Object {
   "channel": 1,
   "messageCode": 208,
@@ -4905,7 +6985,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [209,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [208,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [209,60,0] 1`] = `
 Object {
   "channel": 2,
   "messageCode": 208,
@@ -4914,7 +7003,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [210,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [209,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [210,60,0] 1`] = `
 Object {
   "channel": 3,
   "messageCode": 208,
@@ -4923,7 +7021,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [211,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [210,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [211,60,0] 1`] = `
 Object {
   "channel": 4,
   "messageCode": 208,
@@ -4932,7 +7039,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [212,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [211,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [212,60,0] 1`] = `
 Object {
   "channel": 5,
   "messageCode": 208,
@@ -4941,7 +7057,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [213,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [212,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [213,60,0] 1`] = `
 Object {
   "channel": 6,
   "messageCode": 208,
@@ -4950,7 +7075,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [214,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [213,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [214,60,0] 1`] = `
 Object {
   "channel": 7,
   "messageCode": 208,
@@ -4959,7 +7093,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [215,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [214,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [215,60,0] 1`] = `
 Object {
   "channel": 8,
   "messageCode": 208,
@@ -4968,7 +7111,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [216,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [215,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [216,60,0] 1`] = `
 Object {
   "channel": 9,
   "messageCode": 208,
@@ -4977,7 +7129,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [217,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [216,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [217,60,0] 1`] = `
 Object {
   "channel": 10,
   "messageCode": 208,
@@ -4986,7 +7147,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [218,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [217,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [218,60,0] 1`] = `
 Object {
   "channel": 11,
   "messageCode": 208,
@@ -4995,7 +7165,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [219,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [218,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [219,60,0] 1`] = `
 Object {
   "channel": 12,
   "messageCode": 208,
@@ -5004,7 +7183,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [220,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [219,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [220,60,0] 1`] = `
 Object {
   "channel": 13,
   "messageCode": 208,
@@ -5013,7 +7201,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [221,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [220,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [221,60,0] 1`] = `
 Object {
   "channel": 14,
   "messageCode": 208,
@@ -5022,7 +7219,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [222,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [221,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [222,60,0] 1`] = `
 Object {
   "channel": 15,
   "messageCode": 208,
@@ -5031,7 +7237,16 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [223,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [222,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [223,60,0] 1`] = `
 Object {
   "channel": 16,
   "messageCode": 208,
@@ -5040,321 +7255,650 @@ Object {
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [224,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [223,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "messageCode": 208,
+  "messageType": "channelpressure",
+  "pressure": 60,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [224,60,0] 1`] = `
 Object {
   "channel": 1,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [225,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [224,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [225,60,0] 1`] = `
 Object {
   "channel": 2,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [226,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [225,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [226,60,0] 1`] = `
 Object {
   "channel": 3,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [227,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [226,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [227,60,0] 1`] = `
 Object {
   "channel": 4,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [228,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [227,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [228,60,0] 1`] = `
 Object {
   "channel": 5,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [229,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [228,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [229,60,0] 1`] = `
 Object {
   "channel": 6,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [230,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [229,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [230,60,0] 1`] = `
 Object {
   "channel": 7,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [231,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [230,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [231,60,0] 1`] = `
 Object {
   "channel": 8,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [232,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [231,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [232,60,0] 1`] = `
 Object {
   "channel": 9,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [233,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [232,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [233,60,0] 1`] = `
 Object {
   "channel": 10,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [234,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [233,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [234,60,0] 1`] = `
 Object {
   "channel": 11,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [235,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [234,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [235,60,0] 1`] = `
 Object {
   "channel": 12,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [236,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [235,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [236,60,0] 1`] = `
 Object {
   "channel": 13,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [237,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [236,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [237,60,0] 1`] = `
 Object {
   "channel": 14,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [238,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [237,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [238,60,0] 1`] = `
 Object {
   "channel": 15,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [239,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [238,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [239,60,0] 1`] = `
 Object {
   "channel": 16,
   "messageCode": 224,
   "messageType": "pitchbendchange",
-  "pitchBend": 14140,
-  "pitchBendMultiplier": 0.7261628616774508,
+  "pitchBend": 60,
+  "pitchBendMultiplier": -0.99267578125,
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [240,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [239,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "messageCode": 224,
+  "messageType": "pitchbendchange",
+  "pitchBend": 16316,
+  "pitchBendMultiplier": 0.9918202905628128,
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [240,60,0] 1`] = `
 Object {
   "channel": 1,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [241,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [240,60,127] 1`] = `
+Object {
+  "channel": 1,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [241,60,0] 1`] = `
 Object {
   "channel": 2,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [242,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [241,60,127] 1`] = `
+Object {
+  "channel": 2,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [242,60,0] 1`] = `
 Object {
   "channel": 3,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [243,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [242,60,127] 1`] = `
+Object {
+  "channel": 3,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [243,60,0] 1`] = `
 Object {
   "channel": 4,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [244,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [243,60,127] 1`] = `
+Object {
+  "channel": 4,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [244,60,0] 1`] = `
 Object {
   "channel": 5,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [245,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [244,60,127] 1`] = `
+Object {
+  "channel": 5,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [245,60,0] 1`] = `
 Object {
   "channel": 6,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [246,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [245,60,127] 1`] = `
+Object {
+  "channel": 6,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [246,60,0] 1`] = `
 Object {
   "channel": 7,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [247,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [246,60,127] 1`] = `
+Object {
+  "channel": 7,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [247,60,0] 1`] = `
 Object {
   "channel": 8,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [248,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [247,60,127] 1`] = `
+Object {
+  "channel": 8,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [248,60,0] 1`] = `
 Object {
   "channel": 9,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [249,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [248,60,127] 1`] = `
+Object {
+  "channel": 9,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [249,60,0] 1`] = `
 Object {
   "channel": 10,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [250,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [249,60,127] 1`] = `
+Object {
+  "channel": 10,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [250,60,0] 1`] = `
 Object {
   "channel": 11,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [251,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [250,60,127] 1`] = `
+Object {
+  "channel": 11,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [251,60,0] 1`] = `
 Object {
   "channel": 12,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [252,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [251,60,127] 1`] = `
+Object {
+  "channel": 12,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [252,60,0] 1`] = `
 Object {
   "channel": 13,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [253,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [252,60,127] 1`] = `
+Object {
+  "channel": 13,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [253,60,0] 1`] = `
 Object {
   "channel": 14,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [254,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [253,60,127] 1`] = `
+Object {
+  "channel": 14,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [254,60,0] 1`] = `
 Object {
   "channel": 15,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
   "messageCode": 240,
   "messageType": "unknown",
 }
 `;
 
-exports[`parseMidi() snapshots match for all variations of status byte: [255,60,110] 1`] = `
+exports[`parseMidi() snapshots match for all variations of status byte: [254,60,127] 1`] = `
+Object {
+  "channel": 15,
+  "data1": 60,
+  "data2": 127,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [255,60,0] 1`] = `
 Object {
   "channel": 16,
   "data1": 60,
-  "data2": 110,
+  "data2": 0,
+  "messageCode": 240,
+  "messageType": "unknown",
+}
+`;
+
+exports[`parseMidi() snapshots match for all variations of status byte: [255,60,127] 1`] = `
+Object {
+  "channel": 16,
+  "data1": 60,
+  "data2": 127,
   "messageCode": 240,
   "messageType": "unknown",
 }

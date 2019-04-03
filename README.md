@@ -65,7 +65,7 @@ In addition, specific properties exist for each `messageType`:
 {
     messageType: 'noteon',
     key: 0-127,
-    velocity: 0-127,
+    velocity: 1-127,
 }
 
 {

@@ -1,4 +1,4 @@
-import { combineMsbAndLsb } from './numberUtils';
+import { combineMsbAndLsb } from './numberUtils.js';
 
 describe('combineMsbAndLsb()', () => {
 	test('correctly combines MSB and LSB values', () => {

@@ -51,7 +51,6 @@ System.register("lib/controlChangeUtils", [], function (exports_1, context_1) {
                     case 19: return 'generalpurposecontroller4';
                     // 32-63 LSB (Least Significant Byte / Fine Value) correspond to their MSB equivalent.
                     // They are dynamically assigned based on values 0-31.
-                    // TODO: How are "*fine" values used? Can they be combined, so "volume" and "volumefine" can be (optionally) consumed as one thing, without thinking about this implementation detail.
                     case 32: return 'bankselectfine';
                     case 33: return 'modulationfine';
                     case 34: return 'breathcontrollerfine';

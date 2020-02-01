@@ -1,4 +1,4 @@
-import { getControlFunction, getChannelModeMessage } from './controlChangeUtils.js';
+import { getControlFunction, getChannelModeMessage } from './controlChangeUtils';
 
 describe('getControlFunction()', () => {
 	test('returns expected strings for some sample values', () => {

@@ -3,8 +3,9 @@
   "version": "1.0.9",
   "description": "A small parser for MIDI messages.",
   "main": "dist/parseMidi.js",
-  "type": "module",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "start": "npm run clean && npm run build:demo -- -w",
     "build": "npm run clean && npm run build:code && npm run build:demo",

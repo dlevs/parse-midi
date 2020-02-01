@@ -1,6 +1,6 @@
-import { getControlFunction, getChannelModeMessage } from './lib/controlChangeUtils.js';
-import { PITCH_BEND_NEUTRAL } from './lib/constants.js';
-import { combineMsbAndLsb } from './lib/numberUtils.js';
+import { getControlFunction, getChannelModeMessage } from './lib/controlChangeUtils';
+import { PITCH_BEND_NEUTRAL } from './lib/constants';
+import { combineMsbAndLsb } from './lib/numberUtils';
 
 export type MidiData = Uint8Array | [number, number, number];
 

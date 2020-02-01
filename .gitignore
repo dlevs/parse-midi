@@ -1,3 +1,4 @@
 node_modules
-dist/**
-!dist/demoBundle.js
+/dist/**
+!/dist/demoBundle.js
+/coverage

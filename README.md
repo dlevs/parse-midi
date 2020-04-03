@@ -1,5 +1,7 @@
 # parse-midi
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e990668-5854-432a-aaf6-dbda6876c4bd/deploy-status)](https://app.netlify.com/sites/parse-midi/deploys)
+
 A small parser for MIDI messages.
 
 The parser follows [midi.org's MIDI 1.0 specification](https://www.midi.org/specifications-old/item/the-midi-1-0-specification), meaning it:

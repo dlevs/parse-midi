@@ -1,4 +1,4 @@
-import { BITS_PER_DATA } from './constants';
+import { BITS_PER_DATA } from './constants.js';
 
 /**
  * Combine "Most Significant Byte" and "Least Significant Byte" for

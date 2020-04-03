@@ -4,7 +4,9 @@
   "description": "A small parser for MIDI messages.",
   "main": "dist/parseMidi.js",
   "type": "module",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "start": "npm run clean && npm run build:demo -- -w",
     "build": "npm run clean && npm run build:code && npm run build:demo",
@@ -23,11 +25,12 @@
   },
   "devDependencies": {
     "@dlevs/tslint-config": "1.0.4",
-    "@types/jest": "23.3.1",
-    "jest": "23.5.0",
+    "@types/jest": "25.1.5",
+    "jest": "25.2.7",
+    "jest-ts-webcompat-resolver": "1.0.0",
     "rimraf": "2.6.2",
-    "ts-jest": "24.0.1",
-    "tslint": "5.14.0",
+    "ts-jest": "25.3.1",
+    "tslint": "6.1.1",
     "typescript": "3.4.1"
   }
 }

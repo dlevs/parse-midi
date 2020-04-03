@@ -146,12 +146,12 @@ System.register("lib/constants", [], function (exports_2, context_2) {
 });
 System.register("lib/numberUtils", ["lib/constants"], function (exports_3, context_3) {
     "use strict";
-    var constants_1, combineMsbAndLsb;
+    var constants_js_1, combineMsbAndLsb;
     var __moduleName = context_3 && context_3.id;
     return {
         setters: [
-            function (constants_1_1) {
-                constants_1 = constants_1_1;
+            function (constants_js_1_1) {
+                constants_js_1 = constants_js_1_1;
             }
         ],
         execute: function () {
@@ -159,24 +159,24 @@ System.register("lib/numberUtils", ["lib/constants"], function (exports_3, conte
              * Combine "Most Significant Byte" and "Least Significant Byte" for
              * parameters that use 2 bytes instead of just 1 for increased resolution.
              */
-            exports_3("combineMsbAndLsb", combineMsbAndLsb = (msb, lsb) => (msb << constants_1.BITS_PER_DATA) + lsb);
+            exports_3("combineMsbAndLsb", combineMsbAndLsb = (msb, lsb) => (msb << constants_js_1.BITS_PER_DATA) + lsb);
         }
     };
 });
 System.register("parseMidi", ["lib/controlChangeUtils", "lib/constants", "lib/numberUtils"], function (exports_4, context_4) {
     "use strict";
-    var controlChangeUtils_1, constants_2, numberUtils_1, parseMidi;
+    var controlChangeUtils_js_1, constants_js_2, numberUtils_js_1, parseMidi;
     var __moduleName = context_4 && context_4.id;
     return {
         setters: [
-            function (controlChangeUtils_1_1) {
-                controlChangeUtils_1 = controlChangeUtils_1_1;
+            function (controlChangeUtils_js_1_1) {
+                controlChangeUtils_js_1 = controlChangeUtils_js_1_1;
             },
-            function (constants_2_1) {
-                constants_2 = constants_2_1;
+            function (constants_js_2_1) {
+                constants_js_2 = constants_js_2_1;
             },
-            function (numberUtils_1_1) {
-                numberUtils_1 = numberUtils_1_1;
+            function (numberUtils_js_1_1) {
+                numberUtils_js_1 = numberUtils_js_1_1;
             }
         ],
         execute: function () {
@@ -205,15 +205,15 @@ System.register("parseMidi", ["lib/controlChangeUtils", "lib/constants", "lib/nu
                         return Object.assign({}, sharedData, { messageType: 'keypressure', key: data1, pressure: data2 });
                     case 0xB0:
                         if (data1 < 120) {
-                            return Object.assign({}, sharedData, { messageType: 'controlchange', controlNumber: data1, controlFunction: controlChangeUtils_1.getControlFunction(data1, data2), controlValue: data2 });
+                            return Object.assign({}, sharedData, { messageType: 'controlchange', controlNumber: data1, controlFunction: controlChangeUtils_js_1.getControlFunction(data1, data2), controlValue: data2 });
                         }
-                        return Object.assign({}, sharedData, { messageType: 'channelmodechange', controlNumber: data1, channelModeMessage: controlChangeUtils_1.getChannelModeMessage(data1, data2), controlValue: data2 });
+                        return Object.assign({}, sharedData, { messageType: 'channelmodechange', controlNumber: data1, channelModeMessage: controlChangeUtils_js_1.getChannelModeMessage(data1, data2), controlValue: data2 });
                     case 0xC0:
                         return Object.assign({}, sharedData, { messageType: 'programchange', program: data1 });
                     case 0xD0:
                         return Object.assign({}, sharedData, { messageType: 'channelpressure', pressure: data1 });
                     case 0xE0: {
-                        const pitchBend = numberUtils_1.combineMsbAndLsb(data2, data1);
+                        const pitchBend = numberUtils_js_1.combineMsbAndLsb(data2, data1);
                         /*
                             Minimum is 0
                             Neutral is 8,192
@@ -224,10 +224,10 @@ System.register("parseMidi", ["lib/controlChangeUtils", "lib/constants", "lib/nu
                             values depending on whether the pitch bend is up or down, as
                             up has 1 less possible value.
                         */
-                        const divider = pitchBend <= constants_2.PITCH_BEND_NEUTRAL
-                            ? constants_2.PITCH_BEND_NEUTRAL
-                            : (constants_2.PITCH_BEND_NEUTRAL - 1);
-                        return Object.assign({}, sharedData, { messageType: 'pitchbendchange', pitchBend, pitchBendMultiplier: (pitchBend - constants_2.PITCH_BEND_NEUTRAL) / divider });
+                        const divider = pitchBend <= constants_js_2.PITCH_BEND_NEUTRAL
+                            ? constants_js_2.PITCH_BEND_NEUTRAL
+                            : (constants_js_2.PITCH_BEND_NEUTRAL - 1);
+                        return Object.assign({}, sharedData, { messageType: 'pitchbendchange', pitchBend, pitchBendMultiplier: (pitchBend - constants_js_2.PITCH_BEND_NEUTRAL) / divider });
                     }
                     default:
                         return Object.assign({}, sharedData, { messageType: 'unknown', data1,

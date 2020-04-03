@@ -1,14 +1,15 @@
-module.exports = {
-    "transform": {
-        "^.+\\.tsx?$": "ts-jest"
+export default {
+    transform: {
+        '^.+\\.tsx?$': 'ts-jest'
     },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-        "ts",
-        "tsx",
-        "js",
-        "jsx",
-        "json",
-        "node"
+    resolver: 'jest-ts-webcompat-resolver',
+    testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
+    moduleFileExtensions: [
+        'ts',
+        'tsx',
+        'js',
+        'jsx',
+        'json',
+        'node'
     ]
 };

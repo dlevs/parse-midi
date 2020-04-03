@@ -40,7 +40,7 @@ navigator.requestMIDIAccess().then(access => {
 });
 ```
 
-See the [demo](https://dlevs.github.io/parse-midi/demo) for a working example.
+See the [demo](https://parse-midi.netlify.com/demo.html) for a working example.
 
 ## Return values
 

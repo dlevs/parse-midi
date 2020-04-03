@@ -2,20 +2,17 @@
   "name": "parse-midi",
   "version": "2.0.0",
   "description": "A small parser for MIDI messages.",
-  "main": "dist/parseMidi.js",
-  "type": "module",
+  "main": "dist/parseMidi.umd.js",
+  "module": "dist/parseMidi.module.js",
   "files": [
     "dist/"
   ],
   "scripts": {
-    "start": "npm run clean && npm run build:demo -- -w",
-    "build": "npm run clean && npm run build:code && npm run build:demo",
-    "build:code": "tsc",
-    "build:demo": "tsc --module system --outFile dist/demoBundle.js",
-    "clean": "rimraf dist",
+    "build": "microbundle -f es,umd src/parseMidi.ts",
     "lint": "tslint --format stylish --project .",
     "test": "jest",
-    "prepublish": "npm test && npm run lint && npm run build"
+    "prebuild": "rimraf dist",
+    "prepare": "npm test && npm run lint && npm run build"
   },
   "author": "Daniel Levett",
   "license": "MIT",
@@ -28,6 +25,7 @@
     "@types/jest": "25.1.5",
     "jest": "25.2.7",
     "jest-ts-webcompat-resolver": "1.0.0",
+    "microbundle": "0.11.0",
     "rimraf": "2.6.2",
     "ts-jest": "25.3.1",
     "tslint": "6.1.1",

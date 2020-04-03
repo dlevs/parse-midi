@@ -18,13 +18,9 @@
 <body>
 	<p>Open the console to see the parse-midi module respond to MIDI input of any connected devices, or to try the function directly via the global variable <code>window.parseMidi</code>.</p>
 	<p>Your browser must support the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess">MIDIAccess interface</a>.</p>
-	<script src="https://unpkg.com/systemjs@0.21.4/dist/system-production.js"></script>
-	<script src="./dist/demoBundle.js"></script>
+	<script src="./dist/parseMidi.umd.js"></script>
 	<script>
 		(async () => {
-			// Expose to global scope so users can test in the console
-			window.parseMidi = (await SystemJS.import('parseMidi')).default;
-
 			const listenAll = (inputs) => {
 				Array.from(inputs.values()).forEach(input => {
 					input.onmidimessage = (event) => {

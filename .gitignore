@@ -1,4 +1,12 @@
+# Dependencies
 node_modules
-/dist/**
-!/dist/demoBundle.js
+
+# Build output
+/dist
+
+# Jest test coverage results
 /coverage
+
+# Microbundle cache directories
+.rts2_cache_umd
+.rts2_cache_es

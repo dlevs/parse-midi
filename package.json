@@ -4,6 +4,7 @@
   "description": "A small parser for MIDI messages.",
   "main": "dist/parseMidi.umd.js",
   "module": "dist/parseMidi.module.js",
+  "types": "dist/parseMidi.d.ts",
   "files": [
     "dist/"
   ],
